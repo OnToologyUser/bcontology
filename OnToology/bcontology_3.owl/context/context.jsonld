@@ -1,0 +1,289 @@
+{
+  "@context" : {
+    "hasNarrowSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"
+    },
+    "GO_0097159" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0097159"
+    },
+    "GO_0016853" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0016853"
+    },
+    "SIO_000797" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000797"
+    },
+    "GO_0004888" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0004888"
+    },
+    "GO_0016787" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0016787"
+    },
+    "hasExactSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+    },
+    "drugName" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#drugName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "DiseaseRelatedGene" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#DiseaseRelatedGene"
+    },
+    "SIO_000880" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000880"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "isRuleEnabled" : {
+      "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"
+    },
+    "Antagonist" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#Antagonist"
+    },
+    "hasRole" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#hasRole",
+      "@type" : "@id"
+    },
+    "SIO_000801" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000801"
+    },
+    "geneEncondesProduct" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#geneEncondesProduct",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "OMIMnumber" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#OMIMnumber",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "GO_0003824" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0003824"
+    },
+    "isChemicalTreatmeantFor" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#isChemicalTreatmeantFor",
+      "@type" : "@id"
+    },
+    "OncologicalDisease" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#OncologicalDisease"
+    },
+    "SIO_000803" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000803"
+    },
+    "isConsequenceOf" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#isConsequenceOf",
+      "@type" : "@id"
+    },
+    "NeurologicalDisease" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#NeurologicalDisease"
+    },
+    "geneSymbol" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#geneSymbol",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "id" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#id"
+    },
+    "inSubset" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#inSubset"
+    },
+    "geneProductIsAffectedByDrug" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#geneProductIsAffectedByDrug",
+      "@type" : "@id"
+    },
+    "SIO_000799" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000799"
+    },
+    "Disease" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#Disease"
+    },
+    "created_by" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#created_by"
+    },
+    "hasConsequence" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#hasConsequence",
+      "@type" : "@id"
+    },
+    "GO_0003674" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0003674"
+    },
+    "Agonist" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#Agonist"
+    },
+    "GO_0016740" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0016740"
+    },
+    "creation_date" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#creation_date"
+    },
+    "Drug" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#Drug"
+    },
+    "hasChemicalTreatment" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#hasChemicalTreatment",
+      "@type" : "@id"
+    },
+    "drugAffectsGeneProduct" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#drugAffectsGeneProduct",
+      "@type" : "@id"
+    },
+    "SIO_000879" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000879"
+    },
+    "GO_0140096" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0140096"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "P100" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P100"
+    },
+    "SIO_000889" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000889"
+    },
+    "GO_0004930" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0004930"
+    },
+    "PDB_ID" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#PDB_ID",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "SIO_000796" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000796"
+    },
+    "hasMass" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#hasMass",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "SIO_000802" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000802"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "hasOBONamespace" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"
+    },
+    "geneProductEncodedByGene" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#geneProductEncodedByGene",
+      "@type" : "@id"
+    },
+    "GO_0016491" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0016491"
+    },
+    "diseaseName" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#diseaseName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasFormula" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#hasFormula",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Gene" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#Gene"
+    },
+    "SIO_000804" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000804"
+    },
+    "GO_1901363" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_1901363"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "hasAlternativeId" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"
+    },
+    "SIO_000800" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000800"
+    },
+    "hasFunction" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#hasFunction",
+      "@type" : "@id"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "TargetProtein" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#TargetProtein"
+    },
+    "SIO_000896" : {
+      "@id" : "http://semanticscience.org/resource/SIO_000896"
+    },
+    "IAO_0000589" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000589"
+    },
+    "GO_0005515" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0005515"
+    },
+    "IAO_0000233" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000233"
+    },
+    "GO_0098772" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0098772"
+    },
+    "GO_0016874" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0016874"
+    },
+    "GO_0038023" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0038023"
+    },
+    "proteinName" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#proteinName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasBroadSynonym" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "hasDbXref" : {
+      "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+    },
+    "GO_0045182" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0045182"
+    },
+    "P350" : {
+      "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P350"
+    },
+    "GO_0060089" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0060089"
+    },
+    "GO_0016829" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0016829"
+    },
+    "InbornMetabolicDisease" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#InbornMetabolicDisease"
+    },
+    "GO_0005488" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0005488"
+    },
+    "GO_0030545" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0030545"
+    },
+    "GO_0016209" : {
+      "@id" : "http://purl.obolibrary.org/obo/GO_0016209"
+    },
+    "GeneRelatedDisease" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#GeneRelatedDisease"
+    },
+    "CardiovascularDisease" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#CardiovascularDisease"
+    },
+    "RespiratoryDisease" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#RespiratoryDisease"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/terms/description"
+    },
+    "IAO_0000115" : {
+      "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+    },
+    "Protein" : {
+      "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto#Protein"
+    }
+  }
+}
