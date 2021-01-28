@@ -1,16 +1,16 @@
-@prefix : <http://www.semanticweb.org/carla/ontologies/2021/0/bconto#> .
+@prefix : <https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/carla/ontologies/2021/0/bconto> .
+@base <https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl> .
 
-<http://www.semanticweb.org/carla/ontologies/2021/0/bconto> rdf:type owl:Ontology ;
-                                                             <http://purl.org/dc/elements/1.1/creator> "Adrian Stremtan" ,
-                                                                                                       "Carla Alejandre Villalobos" ;
-                                                             <http://purl.org/dc/elements/1.1/title> "Bcontology" ;
-                                                             rdfs:isDefinedBy <http://www.semanticweb.org/carla/ontologies/2021/0/bconto> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl> rdf:type owl:Ontology ;
+                                                                       <http://purl.org/dc/elements/1.1/creator> "Adrian Stremtan" ,
+                                                                                                                 "Carla Alejandre Villalobos" ;
+                                                                       <http://purl.org/dc/elements/1.1/title> "Bcontology" ;
+                                                                       rdfs:isDefinedBy <http://www.semanticweb.org/carla/ontologies/2021/0/bconto> .
 
 #################################################################
 #    Annotation properties
@@ -92,65 +92,85 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#drugAffectsGeneProduct
+###  http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P96
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P96> rdf:type owl:ObjectProperty ;
+                                                         owl:equivalentProperty :geneEncondesProduct ;
+                                                         rdfs:comment "A property representing the protein or RNA product expressed by a gene."@en ;
+                                                         rdfs:isDefinedBy "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"@en ;
+                                                         rdfs:label "Gene_Encodes_Product" .
+
+
+###  http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R54
+<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R54> rdf:type owl:ObjectProperty ;
+                                                         owl:equivalentProperty :geneProductEncodedByGene ;
+                                                         rdfs:comment "A role used to assert a relationship between a gene product and the gene that encodes it. The domain and range for this role are 'Gene Product' and 'Gene', respectively."@en ;
+                                                         rdfs:isDefinedBy "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"@en ;
+                                                         rdfs:label "Gene_Product_Encoded_By_Gene"@en .
+
+
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#drugAffectsGeneProduct
 :drugAffectsGeneProduct rdf:type owl:ObjectProperty ;
                         owl:inverseOf :geneProductIsAffectedByDrug ;
                         rdfs:domain :Drug ;
                         rdfs:range :TargetProtein .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#geneEncondesProduct
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#geneEncondesProduct
 :geneEncondesProduct rdf:type owl:ObjectProperty ;
                      owl:inverseOf :geneProductEncodedByGene ;
                      rdfs:domain :Gene ;
                      rdfs:range :Protein .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#geneProductEncodedByGene
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#geneProductEncodedByGene
 :geneProductEncodedByGene rdf:type owl:ObjectProperty ;
                           rdfs:domain :Protein ;
                           rdfs:range :Gene .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#geneProductIsAffectedByDrug
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#geneProductIsAffectedByDrug
 :geneProductIsAffectedByDrug rdf:type owl:ObjectProperty ;
                              rdfs:domain :TargetProtein ;
                              rdfs:range :Drug .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#hasChemicalTreatment
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#hasChemicalTreatment
 :hasChemicalTreatment rdf:type owl:ObjectProperty ;
                       owl:inverseOf :isChemicalTreatmeantFor ;
                       rdfs:domain :Disease ;
                       rdfs:range :Drug .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#hasConsequence
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#hasConsequence
 :hasConsequence rdf:type owl:ObjectProperty ;
-                owl:inverseOf :isConsequenceOf .
+                owl:inverseOf :isConsequenceOf ;
+                rdfs:domain :DiseaseRelatedGene ;
+                rdfs:range :GeneRelatedDisease .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#hasFunction
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#hasFunction
 :hasFunction rdf:type owl:ObjectProperty ;
              rdfs:domain :Protein ;
              rdfs:range <http://purl.obolibrary.org/obo/GO_0003674> ;
              rdfs:comment "molecular function of a protein" .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#hasRole
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#hasRole
 :hasRole rdf:type owl:ObjectProperty ;
          rdfs:domain :Drug ;
          rdfs:range <http://semanticscience.org/resource/SIO_000889> .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#isChemicalTreatmeantFor
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#isChemicalTreatmeantFor
 :isChemicalTreatmeantFor rdf:type owl:ObjectProperty ;
                          rdfs:domain :Drug ;
                          rdfs:range :Disease .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#isConsequenceOf
-:isConsequenceOf rdf:type owl:ObjectProperty .
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#isConsequenceOf
+:isConsequenceOf rdf:type owl:ObjectProperty ;
+                 rdfs:domain :GeneRelatedDisease ;
+                 rdfs:range :DiseaseRelatedGene .
 
 
 #################################################################
@@ -164,77 +184,49 @@
                                                           rdfs:label "OMIM_Number" .
 
 
-###  http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P350
-<http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P350> rdf:type owl:DatatypeProperty ;
-                                                          owl:equivalentProperty :hasFormula ;
-                                                          rdfs:comment "A property representing a concise expression about the atoms that constitute a particular chemical compound." ;
-                                                          rdfs:isDefinedBy <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl> ;
-                                                          rdfs:label "Chemical_Formula" .
-
-
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#OMIMnumber
-:OMIMnumber rdf:type owl:DatatypeProperty ;
-            rdfs:subPropertyOf owl:topDataProperty ;
-            rdfs:domain [ rdf:type owl:Restriction ;
-                          owl:onProperty :OMIMnumber ;
-                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                          owl:onDataRange xsd:string
-                        ] ;
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#OMIM_trait
+:OMIM_trait rdf:type owl:DatatypeProperty ;
+            rdfs:domain :Disease ;
             rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#PDB_ID
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#OMIMnumber
+:OMIMnumber rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdfs:range xsd:string .
+
+
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#PDB_ID
 :PDB_ID rdf:type owl:DatatypeProperty ;
         rdfs:domain :Protein ;
         rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#diseaseName
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#diseaseName
 :diseaseName rdf:type owl:DatatypeProperty ;
              rdfs:domain :Disease ;
              rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#drugName
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#drugName
 :drugName rdf:type owl:DatatypeProperty ;
           rdfs:domain :Drug ;
           rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#geneSymbol
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#geneSymbol
 :geneSymbol rdf:type owl:DatatypeProperty ;
-            rdfs:domain :Gene ,
-                        [ rdf:type owl:Restriction ;
-                          owl:onProperty :geneSymbol ;
-                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                          owl:onDataRange xsd:string
-                        ] ;
+            rdfs:domain :Gene ;
             rdfs:range xsd:string .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#hasFormula
-:hasFormula rdf:type owl:DatatypeProperty ;
-            rdfs:domain :Drug ,
-                        [ rdf:type owl:Restriction ;
-                          owl:onProperty :hasFormula ;
-                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                          owl:onDataRange xsd:string
-                        ] ;
-            rdfs:range xsd:string .
-
-
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#hasMass
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#hasMass
 :hasMass rdf:type owl:DatatypeProperty ;
-         rdfs:domain :Drug ,
-                     [ rdf:type owl:Restriction ;
-                       owl:onProperty :hasMass ;
-                       owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-                       owl:onDataRange xsd:float
-                     ] ;
+         rdfs:domain :Drug ;
          rdfs:range xsd:float .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#proteinName
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#proteinName
 :proteinName rdf:type owl:DatatypeProperty ;
              rdfs:domain :Protein ;
              rdfs:range xsd:string ;
@@ -321,20 +313,6 @@
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <http://purl.obolibrary.org/obo/GO_0004888> ;
-   owl:annotatedProperty <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ;
-   owl:annotatedTarget "Reactome:R-HSA-193672" ;
-   rdfs:label "Sphingomyelinase is activated by the NGF:p75NTR complex"
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource <http://purl.obolibrary.org/obo/GO_0004888> ;
-   owl:annotatedProperty <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> ;
-   owl:annotatedTarget "transmembrane signalling receptor activity" ;
-   <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource <http://purl.obolibrary.org/obo/GO_0004888> ;
    owl:annotatedProperty <http://purl.obolibrary.org/obo/IAO_0000115> ;
    owl:annotatedTarget "Combining with an extracellular or intracellular signal and transmitting the signal from one side of the membrane to the other to initiate a change in cell activity or state as part of signal transduction." ;
    <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:go_curators" ,
@@ -347,6 +325,20 @@
    owl:annotatedTarget "transmembrane receptor activity" ;
    <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:bf" ,
                                                             "GOC:signaling"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://purl.obolibrary.org/obo/GO_0004888> ;
+   owl:annotatedProperty <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ;
+   owl:annotatedTarget "Reactome:R-HSA-193672" ;
+   rdfs:label "Sphingomyelinase is activated by the NGF:p75NTR complex"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://purl.obolibrary.org/obo/GO_0004888> ;
+   owl:annotatedProperty <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> ;
+   owl:annotatedTarget "transmembrane signalling receptor activity" ;
+   <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:mah"
  ] .
 
 
@@ -387,22 +379,6 @@
 
 [ rdf:type owl:Axiom ;
    owl:annotatedSource <http://purl.obolibrary.org/obo/GO_0004930> ;
-   owl:annotatedProperty <http://purl.obolibrary.org/obo/IAO_0000115> ;
-   owl:annotatedTarget "Combining with an extracellular signal and transmitting the signal across the membrane by activating an associated G-protein; promotes the exchange of GDP for GTP on the alpha subunit of a heterotrimeric G-protein complex." ;
-   <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:bf" ,
-                                                            "Wikipedia:GPCR" ,
-                                                            "http://www.iuphar-db.org"
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource <http://purl.obolibrary.org/obo/GO_0004930> ;
-   owl:annotatedProperty <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ;
-   owl:annotatedTarget "Reactome:R-HSA-114552" ;
-   rdfs:label "G12/13 activation by PAR"
- ] .
-
-[ rdf:type owl:Axiom ;
-   owl:annotatedSource <http://purl.obolibrary.org/obo/GO_0004930> ;
    owl:annotatedProperty <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ;
    owl:annotatedTarget "Reactome:R-HSA-114558" ;
    rdfs:label "Gq activation by PAR"
@@ -420,6 +396,22 @@
    owl:annotatedProperty <http://www.geneontology.org/formats/oboInOwl#hasExactSynonym> ;
    owl:annotatedTarget "receptor activity, G-protein coupled" ;
    <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:bf"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://purl.obolibrary.org/obo/GO_0004930> ;
+   owl:annotatedProperty <http://purl.obolibrary.org/obo/IAO_0000115> ;
+   owl:annotatedTarget "Combining with an extracellular signal and transmitting the signal across the membrane by activating an associated G-protein; promotes the exchange of GDP for GTP on the alpha subunit of a heterotrimeric G-protein complex." ;
+   <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:bf" ,
+                                                            "Wikipedia:GPCR" ,
+                                                            "http://www.iuphar-db.org"
+ ] .
+
+[ rdf:type owl:Axiom ;
+   owl:annotatedSource <http://purl.obolibrary.org/obo/GO_0004930> ;
+   owl:annotatedProperty <http://www.geneontology.org/formats/oboInOwl#hasDbXref> ;
+   owl:annotatedTarget "Reactome:R-HSA-114552" ;
+   rdfs:label "G12/13 activation by PAR"
  ] .
 
 
@@ -1194,20 +1186,18 @@
                                                  rdfs:label "molecular tracer role"@en .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#Agonist
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#Agonist
 :Agonist rdf:type owl:Class ;
          rdfs:subClassOf <http://semanticscience.org/resource/SIO_000880> ;
-         owl:disjointWith :Antagonist ;
-         rdfs:label "agonist role" .
+         owl:disjointWith :Antagonist .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#Antagonist
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#Antagonist
 :Antagonist rdf:type owl:Class ;
-            rdfs:subClassOf <http://semanticscience.org/resource/SIO_000880> ;
-            rdfs:label "antagonist role" .
+            rdfs:subClassOf <http://semanticscience.org/resource/SIO_000880> .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#CardiovascularDisease
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#CardiovascularDisease
 :CardiovascularDisease rdf:type owl:Class ;
                        rdfs:subClassOf :GeneRelatedDisease ;
                        owl:disjointWith :InbornMetabolicDisease ,
@@ -1216,33 +1206,33 @@
                                         :RespiratoryDisease .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#Disease
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#Disease
 :Disease rdf:type owl:Class ;
          rdfs:label "disease"@en .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#DiseaseRelatedGene
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#DiseaseRelatedGene
 :DiseaseRelatedGene rdf:type owl:Class ;
                     rdfs:subClassOf :Gene .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#Drug
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#Drug
 :Drug rdf:type owl:Class ;
       rdfs:comment "Drug: chemical component with a physiological function" ;
       rdfs:label "drug" .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#Gene
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#Gene
 :Gene rdf:type owl:Class ;
       rdfs:label "gene" .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#GeneRelatedDisease
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#GeneRelatedDisease
 :GeneRelatedDisease rdf:type owl:Class ;
                     rdfs:subClassOf :Disease .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#InbornMetabolicDisease
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#InbornMetabolicDisease
 :InbornMetabolicDisease rdf:type owl:Class ;
                         rdfs:subClassOf :GeneRelatedDisease ;
                         owl:disjointWith :NeurologicalDisease ,
@@ -1250,30 +1240,30 @@
                                          :RespiratoryDisease .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#NeurologicalDisease
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#NeurologicalDisease
 :NeurologicalDisease rdf:type owl:Class ;
                      rdfs:subClassOf :GeneRelatedDisease ;
                      owl:disjointWith :OncologicalDisease ,
                                       :RespiratoryDisease .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#OncologicalDisease
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#OncologicalDisease
 :OncologicalDisease rdf:type owl:Class ;
                     rdfs:subClassOf :GeneRelatedDisease ;
                     owl:disjointWith :RespiratoryDisease .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#Protein
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#Protein
 :Protein rdf:type owl:Class ;
          rdfs:label "protein" .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#RespiratoryDisease
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#RespiratoryDisease
 :RespiratoryDisease rdf:type owl:Class ;
                     rdfs:subClassOf :GeneRelatedDisease .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#TargetProtein
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#TargetProtein
 :TargetProtein rdf:type owl:Class ;
                rdfs:subClassOf :Protein ;
                rdfs:label "target protein" .
@@ -1283,38 +1273,187 @@
 #    Individuals
 #################################################################
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#Amphetamine
-:Amphetamine rdf:type owl:NamedIndividual ;
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#ADRB1
+:ADRB1 rdf:type owl:NamedIndividual ,
+                :DiseaseRelatedGene ;
+       :geneEncondesProduct :B1AR ;
+       :hasConsequence :Congestive_heart_failure ;
+       :OMIMnumber 109690 ;
+       :geneSymbol "ADRB1"@en .
+
+
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#ADRB2
+:ADRB2 rdf:type owl:NamedIndividual ,
+                :DiseaseRelatedGene ;
+       :geneEncondesProduct :B2AR ;
+       :hasConsequence :Asthma ;
+       <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P100> 109690 ;
+       :geneSymbol "ADRB2" .
+
+
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#Agonist
+:Agonist rdf:type owl:NamedIndividual ,
+                  :Agonist .
+
+
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#Amphetamine
+:Amphetamine rdf:type owl:NamedIndividual ,
+                      :Drug ;
              :drugAffectsGeneProduct :SodiumDependentDopamineTransporter ;
+             :hasRole :Inhibitor ;
              :isChemicalTreatmeantFor :AttentionDeficitHyperactivityDisorder ;
              :drugName "Amphetamine"@en ;
-             :hasFormula "C9H13N" ;
              :hasMass "135.21"^^xsd:float .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#AttentionDeficitHyperactivityDisorder
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#Antagonist
+:Antagonist rdf:type owl:NamedIndividual ,
+                     :Antagonist .
+
+
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#Asthma
+:Asthma rdf:type owl:NamedIndividual ,
+                 :RespiratoryDisease ;
+        :hasChemicalTreatment :Clenbuterol ,
+                              :Fenoterol ;
+        :isConsequenceOf :ADRB2 ;
+        :OMIM_trait "Asthma (LOF)" ;
+        :diseaseName "Asthma" .
+
+
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#AttentionDeficitHyperactivityDisorder
 :AttentionDeficitHyperactivityDisorder rdf:type owl:NamedIndividual ,
                                                 :NeurologicalDisease ;
-                                       :hasChemicalTreatment :Amphetamine ;
+                                       :hasChemicalTreatment :Amphetamine ,
+                                                             :Dextroamphetamine ;
                                        :isConsequenceOf :SLC6A3 ;
+                                       :OMIM_trait "Attention-deficit hyperactivity disorder (GOF)" ;
                                        :diseaseName "Attention Deficit Hyperactivity Disorder" .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#SLC6A3
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#B1AR
+:B1AR rdf:type owl:NamedIndividual ,
+               :TargetProtein ;
+      :geneProductEncodedByGene :ADRB1 ;
+      :geneProductIsAffectedByDrug :Carvedilol ;
+      :PDB_ID "2Y00" ;
+      :proteinName "Beta-1 adrenergic receptor"@en .
+
+
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#B2AR
+:B2AR rdf:type owl:NamedIndividual ,
+               :TargetProtein ;
+      :geneProductEncodedByGene :ADRB2 ;
+      :geneProductIsAffectedByDrug :Clenbuterol ;
+      :PDB_ID "3SN6" ;
+      :proteinName "Beta-2 adrenergic receptor"@en .
+
+
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#Carvedilol
+:Carvedilol rdf:type owl:NamedIndividual ,
+                     :Drug ;
+            :drugAffectsGeneProduct :B1AR ;
+            :hasRole :Antagonist ;
+            :isChemicalTreatmeantFor :Congestive_heart_failure ;
+            :drugName "Carvedilol" ;
+            :hasMass "406.5"^^xsd:float .
+
+
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#Clenbuterol
+:Clenbuterol rdf:type owl:NamedIndividual ,
+                      :Drug ;
+             :drugAffectsGeneProduct :ADRB2 ;
+             :hasRole :Agonist ;
+             :isChemicalTreatmeantFor :Asthma ;
+             :drugName "Clenbuterol" ;
+             :hasMass "182.5"^^xsd:float .
+
+
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#Congestive_heart_failure
+:Congestive_heart_failure rdf:type owl:NamedIndividual ,
+                                   :CardiovascularDisease ;
+                          :hasChemicalTreatment :Carvedilol ;
+                          :isConsequenceOf :ADRB1 ;
+                          :OMIM_trait "Congestive heart failure and beta-blocker response (GOF)" ;
+                          :diseaseName "Congestive heart failure" .
+
+
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#Dextroamphetamine
+:Dextroamphetamine rdf:type owl:NamedIndividual ,
+                            :NeurologicalDisease ;
+                   :drugAffectsGeneProduct :SLC6A3 ;
+                   :hasRole :Inhibitor ;
+                   :isChemicalTreatmeantFor :AttentionDeficitHyperactivityDisorder ;
+                   :drugName "Dextroamphetamine"@en ;
+                   :hasMass "135.2"^^xsd:float .
+
+
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#Fenoterol
+:Fenoterol rdf:type owl:NamedIndividual ,
+                    :Drug ;
+           :drugAffectsGeneProduct :ADRB2 ;
+           :hasRole :Agonist ;
+           :isChemicalTreatmeantFor :Asthma ;
+           :drugName "Fenoterol" ;
+           :hasMass "303.35"^^xsd:float .
+
+
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#HTR2A
+:HTR2A rdf:type owl:NamedIndividual ,
+                :DiseaseRelatedGene ;
+       <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P100> 182135 ;
+       :geneSymbol "HTR2A" .
+
+
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#Inhibitor
+:Inhibitor rdf:type owl:NamedIndividual ,
+                    <http://semanticscience.org/resource/SIO_000803> .
+
+
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#Olanzanpine
+:Olanzanpine rdf:type owl:NamedIndividual ,
+                      :Drug ;
+             :drugAffectsGeneProduct <https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#5HR2A> ;
+             :hasRole :Antagonist ;
+             :isChemicalTreatmeantFor :Schizophrenia ;
+             :drugName "Olanzapine"@en ;
+             :hasMass "312.4"^^xsd:float .
+
+
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#SLC6A3
 :SLC6A3 rdf:type owl:NamedIndividual ,
                  :DiseaseRelatedGene ;
         :geneEncondesProduct :SodiumDependentDopamineTransporter ;
         :hasConsequence :AttentionDeficitHyperactivityDisorder ;
-        :OMIMnumber "126455" ;
+        :OMIMnumber 126455 ;
         :geneSymbol "SLC6A3" .
 
 
-###  http://www.semanticweb.org/carla/ontologies/2021/0/bconto#SodiumDependentDopamineTransporter
-:SodiumDependentDopamineTransporter rdf:type owl:NamedIndividual ;
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#Schizophrenia
+:Schizophrenia rdf:type owl:NamedIndividual ,
+                        :NeurologicalDisease ;
+               :hasChemicalTreatment :Olanzanpine ;
+               :isConsequenceOf <https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#5HR2A> ;
+               :OMIM_trait "Schizophrenia (GOF)" ;
+               :diseaseName "Schizophrenia"@en .
+
+
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#SodiumDependentDopamineTransporter
+:SodiumDependentDopamineTransporter rdf:type owl:NamedIndividual ,
+                                             :TargetProtein ;
                                     :geneProductEncodedByGene :SLC6A3 ;
                                     :geneProductIsAffectedByDrug :Amphetamine ;
                                     :PDB_ID "4M48" ;
                                     :proteinName "Sodium Dependent Dopamine Transporter"@en .
+
+
+###  https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#5HR2A
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#5HR2A> rdf:type owl:NamedIndividual ,
+                                                                                     :TargetProtein ;
+                                                                            :geneProductEncodedByGene :HTR2A ;
+                                                                            :geneProductIsAffectedByDrug :Olanzanpine ;
+                                                                            :PDB_ID "4IB4" ;
+                                                                            :proteinName "5-hydroxytryptamine receptor 2A"@en .
 
 
 [ rdf:type [ rdf:type owl:Restriction ;
@@ -1328,13 +1467,6 @@
               owl:onProperty :hasMass ;
               owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
               owl:onDataRange xsd:float
-            ]
- ] .
-
-[ rdf:type [ rdf:type owl:Restriction ;
-              owl:onProperty :hasFormula ;
-              owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
-              owl:onDataRange xsd:string
             ]
  ] .
 
