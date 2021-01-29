@@ -1,0 +1,2806 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:pdt"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0003674"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs. These actions are described from two distinct but related perspectives: (1) biochemical activity, and (2) role as a component in a larger system/process."
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Gq activation by PAR"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0004930"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-114558"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "The high affinity receptor complex binds to G-protein"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0004930"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-167408"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:bf"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0004930"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "receptor activity, G-protein coupled"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:ceb"
+  }, {
+    "@value" : "GOC:mah"
+  }, {
+    "@value" : "ISBN:0198506732"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0005488"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "The selective, non-covalent, often stoichiometric, interaction of a molecule with one or more specific sites on another molecule."
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:go_curators"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0005515"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules)."
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "ISBN:0198506732"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016209"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Inhibition of the reactions brought about by dioxygen (O2) or peroxides. Usually the antioxidant is effective because it can itself be more easily oxidized than the substance protected. The term is often applied to components that can trap free radicals, thereby breaking the chain reaction that normally leads to extensive biological damage."
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:go_curators"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016491"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Catalysis of an oxidation-reduction (redox) reaction, a reversible chemical reaction in which the oxidation state of an atom or atoms within a molecule is altered. One substrate acts as a hydrogen or electron donor and becomes oxidized, while the other acts as hydrogen or electron acceptor and becomes reduced."
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "SUMF1 mediates the oxidation of cysteine to formylglycine, producing active arylsulfatases"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016491"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-1614362"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Monoiodinated tyrosine can be deiodinated"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016491"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-209921"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Diiodinated tyrosine can be deiodinated"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016491"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-209960"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:vw"
+  }, {
+    "@value" : "ISBN:0198506732"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0003824"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic."
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "MMACHC reduces Cbl"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016491"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-3095889"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "FAR1 reduces PalmCoA to HXOL"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016491"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-390425"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "FAR2 reduces PalmCoA to HXOL"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016491"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-390438"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Dopachrome is transformed to DHICA by DCT"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016491"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-5662660"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "TYRP1 oxidises DHICA to IQCA"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016491"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-8878581"
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "MARC1,MARC2 reduce N-hydroxylated compounds"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016491"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-8936442"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hydroperoxy reductase reduces 4(S)-Hp-17(S)-HDHA to RvD6"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016491"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-9020249"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hydroperoxy reducatse reduces 7(S)-Hp-17(S)-HDHA to RvD5"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016491"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-9020260"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hydroperoxy reductase reduces 4(S)-Hp-17(R)-HDHA to AT-RvD6"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016491"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-9024624"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hydroperoxy reductase reduces 7(S)-Hp-17(R)-HDHA to AT-RvD5"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016491"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-9024630"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:dph"
+  }, {
+    "@value" : "GOC:tb"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0003824"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "enzyme activity"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hydroperoxy reductase reduces 7(S),14(S)-diHp-DHA to 7-epi-MaR1"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016491"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-9025007"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hydroperoxy reductase reduces 7,17-diHp-DPAn-3 to RvD5n-3DPA"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016491"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-9026001"
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Lipoxygenase dehydrogenates 7(S),17(S)-diHp-DHA to 7S(8)-epoxy-17(S)-HDHA"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016491"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-9026917"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Hydroperoxy reducatase reduces 14(S)-Hp-DHA to 14(S)-HDHA"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016491"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-9027033"
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "ISBN:0198506732"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016740"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2."
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PE is converted to PS by PTDSS2"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016740"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-1483089"
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PC is converted to PS by PTDSS1"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016740"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-1483186"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "TRAF2 ubiquitinates cIAP1,2 in cIAP1,2:TRAF1:TRAF2:TRAF3:NIK"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016740"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-5668414"
+  } ]
+}, {
+  "@id" : "_:genid38",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "TSR3 transfers aminocarboxypropyl group from S-adenosylmethionine to N(1)-methylpseudouridine-1248 of 18SE rRNA yielding N(1)-methyl-N(3)-aminocarboxypropylpseudouridine-1248"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016740"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-8868783"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "ISBN:0198506732"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016787"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3."
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:go_curators"
+  }, {
+    "@value" : "Wikipedia:Transmembrane_receptor"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0004888"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Combining with an extracellular or intracellular signal and transmitting the signal from one side of the membrane to the other to initiate a change in cell activity or state as part of signal transduction."
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Partial proteolysis of antigen in phagolysosomes"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016787"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-1236938"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Production of AA by iPLA2 upon FCGR activation"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016787"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-2029475"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ABHD4 hydrolyses NAPE"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016787"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-5694583"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ABHD14B hydrolyses PNPB"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016787"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-5695964"
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "CMBL hydrolyses OM to OLMS"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016787"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-6786190"
+  } ]
+}, {
+  "@id" : "_:genid45",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "HDHD1:Mg2+ dephosphorylates PURIDP"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016787"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-6788295"
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ENPPs hydrolyse CoA-SH to PPANT, PAP"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016787"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-8938314"
+  } ]
+}, {
+  "@id" : "_:genid47",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Phospholipid phosphatase 6 hydrolyses Presqualene diphosphate to presqualene monophosphate"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016787"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-8952137"
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "ISBN:0198547684"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016829"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring."
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "PXLP-K278-PHYKPL tetramer hydrolyses 5PHL"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016829"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-5696408"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:bf"
+  }, {
+    "@value" : "GOC:signaling"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0004888"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "transmembrane receptor activity"
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "TYW1:FMN:4Fe-4S  transforms 1-methylguanosine yielding yW-187 (4-demethylwyosine) at nucleotide 37 of tRNA(Phe)"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016829"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-6782895"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "ISBN:0198506732"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016853"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Catalysis of the geometric or structural changes within one molecule. Isomerase is the systematic name for any enzyme of EC class 5."
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "TSTA3 dimer epimerises GDP-DHDMan to GDP-KDGal"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016853"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-6787623"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "EC:6"
+  }, {
+    "@value" : "GOC:mah"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016874"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Catalysis of the joining of two molecules, or two groups within a single molecule, using the energy from the hydrolysis of ATP, a similar triphosphate, or a pH gradient."
+  } ]
+}, {
+  "@id" : "_:genid54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:jh2"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0016874"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "synthetase activity"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:ceb"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0030545"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "The function of interacting (directly or indirectly) with receptors such that the proportion of receptors in the active form is changed."
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:bf"
+  }, {
+    "@value" : "GOC:signaling"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0038023"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Receiving a signal and transmitting it in the cell to initiate a change in cell activity. A signal is a physical entity or change in state that is used to transfer information in order to trigger a response."
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:bf"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0038023"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "receptor activity involved in signal transduction"
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:ai"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0045182"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Any molecular function involved in the initiation, activation, perpetuation, repression or termination of polypeptide synthesis at the ribosome."
+  } ]
+}, {
+  "@id" : "_:genid59",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:dos"
+  }, {
+    "@value" : "GOC:pdt"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0060089"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A compound molecular function in which an effector function is controlled by one or more regulatory components."
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Sphingomyelinase is activated by the NGF:p75NTR complex"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0004888"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-193672"
+  } ]
+}, {
+  "@id" : "_:genid60",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:sjw"
+  }, {
+    "@value" : "PMID:7583672"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0097159"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Interacting selectively and non-covalently with an organic cyclic compound, any molecular entity that contains carbon arranged in a cyclic molecular structure."
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:dos"
+  }, {
+    "@value" : "GOC:pt"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0098772"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "A molecular function that modulates the activity of a gene product or complex.  Examples include enzyme regulators and channel regulators."
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:molecular_function_refactoring"
+  }, {
+    "@value" : "GOC:pdt"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0140096"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Catalytic activity that acts to modify a protein."
+  } ]
+}, {
+  "@id" : "_:genid63",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:TermGenie"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_1901363"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Interacting selectively and non-covalently with heterocyclic compound."
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "_:genid65" ]
+}, {
+  "@id" : "_:genid65",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "_:genid67" ]
+}, {
+  "@id" : "_:genid67",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onDataRange" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:mah"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0004888"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "transmembrane signalling receptor activity"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "GOC:bf"
+  }, {
+    "@value" : "Wikipedia:GPCR"
+  }, {
+    "@value" : "http://www.iuphar-db.org"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0004930"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Combining with an extracellular signal and transmitting the signal across the membrane by activating an associated G-protein; promotes the exchange of GDP for GTP on the alpha subunit of a heterotrimeric G-protein complex."
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "G12/13 activation by PAR"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0004930"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@value" : "Reactome:R-HSA-114552"
+  } ]
+}, {
+  "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P100",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "OMIM_Number"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIMnumber"
+  } ]
+}, {
+  "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P96",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A property representing the protein or RNA product expressed by a gene."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Gene_Encodes_Product"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneEncondesProduct"
+  } ]
+}, {
+  "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R54",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A role used to assert a relationship between a gene product and the gene that encodes it. The domain and range for this role are 'Gene Product' and 'Gene', respectively."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gene_Product_Encoded_By_Gene"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_0003674",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs. These actions are described from two distinct but related perspectives: (1) biochemical activity, and (2) role as a component in a larger system/process."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000589" : [ {
+    "@value" : "molecular process"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId" : [ {
+    "@value" : "GO:0005554"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "molecular function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:0003674"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_aspergillus"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_candida"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_chembl"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_generic"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_metagenomics"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_pir"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_plant"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_yeast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Note that, in addition to forming the root of the molecular function ontology, this term is recommended for use for the annotation of gene products whose molecular function is unknown. When this term is used for annotation, it indicates that no information was available about the molecular function of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this. Despite its name, this is not a type of 'function' in the sense typically defined by upper ontologies such as Basic Formal Ontology (BFO). It is instead a BFO:process carried out by a single gene product or complex."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "molecular_function"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_0003824",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Wikipedia:Enzyme"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "enzyme activity"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:0003824"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_agr"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_chembl"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_metagenomics"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_pir"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_plant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "catalytic activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0003674"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_0004888",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Combining with an extracellular or intracellular signal and transmitting the signal from one side of the membrane to the other to initiate a change in cell activity or state as part of signal transduction."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId" : [ {
+    "@value" : "GO:0004926"
+  }, {
+    "@value" : "GO:0099600"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym" : [ {
+    "@value" : "transmembrane receptor activity"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Reactome:R-HSA-193672"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "transmembrane signalling receptor activity"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:0004888"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This term includes intracellular membrane receptors, e.g. IP3 triggered release of Ca2+ from intracellular stores."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "transmembrane signaling receptor activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0038023"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_0004930",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Combining with an extracellular signal and transmitting the signal across the membrane by activating an associated G-protein; promotes the exchange of GDP for GTP on the alpha subunit of a heterotrimeric G-protein complex."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId" : [ {
+    "@value" : "GO:0001622"
+  }, {
+    "@value" : "GO:0001623"
+  }, {
+    "@value" : "GO:0001624"
+  }, {
+    "@value" : "GO:0001625"
+  }, {
+    "@value" : "GO:0016526"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Reactome:R-HSA-114552"
+  }, {
+    "@value" : "Reactome:R-HSA-114558"
+  }, {
+    "@value" : "Reactome:R-HSA-167408"
+  }, {
+    "@value" : "Wikipedia:GPCR"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "G protein coupled receptor activity"
+  }, {
+    "@value" : "G protein linked receptor activity"
+  }, {
+    "@value" : "G-protein coupled receptor activity"
+  }, {
+    "@value" : "G-protein linked receptor activity"
+  }, {
+    "@value" : "GPCR activity"
+  }, {
+    "@value" : "ligand-dependent GPCR activity"
+  }, {
+    "@value" : "receptor activity, G-protein coupled"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym" : [ {
+    "@value" : "EBV-induced receptor"
+  }, {
+    "@value" : "Epstein-Barr Virus-induced receptor activity"
+  }, {
+    "@value" : "G-protein coupled receptor activity, unknown ligand"
+  }, {
+    "@value" : "Mas proto-oncogene receptor activity"
+  }, {
+    "@value" : "RDC1 receptor activity"
+  }, {
+    "@value" : "SREB receptor"
+  }, {
+    "@value" : "orphan G protein coupled receptor activity"
+  }, {
+    "@value" : "orphan G-protein coupled receptor activity"
+  }, {
+    "@value" : "orphan GPCR activity"
+  }, {
+    "@value" : "super conserved receptor expressed in brain receptor activity"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:0004930"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_chembl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "G protein-coupled receptor activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0004888"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_0005488",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "The selective, non-covalent, often stoichiometric, interaction of a molecule with one or more specific sites on another molecule."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "Wikipedia:Binding_(molecular)"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym" : [ {
+    "@value" : "ligand"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:0005488"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_pir"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_plant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Note that this term is in the subset of terms that should not be used for direct, manual gene product annotation. Please choose a more specific child term, or request a new one if no suitable term is available. For ligands that bind to signal transducing receptors, consider the molecular function term 'receptor binding ; GO:0005102' and its children."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "binding"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0003674"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_0005515",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Interacting selectively and non-covalently with any protein or protein complex (a complex of two or more proteins that may include other nonprotein molecules)."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId" : [ {
+    "@value" : "GO:0001948"
+  }, {
+    "@value" : "GO:0045308"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "protein amino acid binding"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym" : [ {
+    "@value" : "glycoprotein binding"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:0005515"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_aspergillus"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_candida"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_chembl"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_metagenomics"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_pir"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_plant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "protein binding"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0005488"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_0016209",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Inhibition of the reactions brought about by dioxygen (O2) or peroxides. Usually the antioxidant is effective because it can itself be more easily oxidized than the substance protected. The term is often applied to components that can trap free radicals, thereby breaking the chain reaction that normally leads to extensive biological damage."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:0016209"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_metagenomics"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_pir"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "antioxidant activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0003674"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_0016491",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Catalysis of an oxidation-reduction (redox) reaction, a reversible chemical reaction in which the oxidation state of an atom or atoms within a molecule is altered. One substrate acts as a hydrogen or electron donor and becomes oxidized, while the other acts as hydrogen or electron acceptor and becomes reduced."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "EC:1"
+  }, {
+    "@value" : "RHEA:27453"
+  }, {
+    "@value" : "Reactome:R-HSA-1614362"
+  }, {
+    "@value" : "Reactome:R-HSA-209921"
+  }, {
+    "@value" : "Reactome:R-HSA-209960"
+  }, {
+    "@value" : "Reactome:R-HSA-3095889"
+  }, {
+    "@value" : "Reactome:R-HSA-390425"
+  }, {
+    "@value" : "Reactome:R-HSA-390438"
+  }, {
+    "@value" : "Reactome:R-HSA-5662660"
+  }, {
+    "@value" : "Reactome:R-HSA-8878581"
+  }, {
+    "@value" : "Reactome:R-HSA-8936442"
+  }, {
+    "@value" : "Reactome:R-HSA-9020249"
+  }, {
+    "@value" : "Reactome:R-HSA-9020260"
+  }, {
+    "@value" : "Reactome:R-HSA-9024624"
+  }, {
+    "@value" : "Reactome:R-HSA-9024630"
+  }, {
+    "@value" : "Reactome:R-HSA-9025007"
+  }, {
+    "@value" : "Reactome:R-HSA-9026001"
+  }, {
+    "@value" : "Reactome:R-HSA-9026917"
+  }, {
+    "@value" : "Reactome:R-HSA-9027033"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "redox activity"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym" : [ {
+    "@value" : "oxidoreductase activity, acting on other substrates"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:0016491"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_aspergillus"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_candida"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_chembl"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_drosophila"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_generic"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_metagenomics"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_mouse"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_pir"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_yeast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "oxidoreductase activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0003824"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_0016740",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Catalysis of the transfer of a group, e.g. a methyl group, glycosyl group, acyl group, phosphorus-containing, or other groups, from one compound (generally regarded as the donor) to another compound (generally regarded as the acceptor). Transferase is the systematic name for any enzyme of EC class 2."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "EC:2"
+  }, {
+    "@value" : "Reactome:R-HSA-1483089"
+  }, {
+    "@value" : "Reactome:R-HSA-1483186"
+  }, {
+    "@value" : "Reactome:R-HSA-5668414"
+  }, {
+    "@value" : "Reactome:R-HSA-8868783"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:0016740"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_aspergillus"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_candida"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_chembl"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_metagenomics"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_mouse"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_pir"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_plant"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_yeast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "transferase activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0003824"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_0016787",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Catalysis of the hydrolysis of various bonds, e.g. C-O, C-N, C-C, phosphoric anhydride bonds, etc. Hydrolase is the systematic name for any enzyme of EC class 3."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "EC:3"
+  }, {
+    "@value" : "Reactome:R-HSA-1236938"
+  }, {
+    "@value" : "Reactome:R-HSA-2029475"
+  }, {
+    "@value" : "Reactome:R-HSA-5694583"
+  }, {
+    "@value" : "Reactome:R-HSA-5695964"
+  }, {
+    "@value" : "Reactome:R-HSA-6786190"
+  }, {
+    "@value" : "Reactome:R-HSA-6788295"
+  }, {
+    "@value" : "Reactome:R-HSA-8938314"
+  }, {
+    "@value" : "Reactome:R-HSA-8952137"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:0016787"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_aspergillus"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_candida"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_chembl"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_metagenomics"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_mouse"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_pir"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_plant"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_yeast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hydrolase activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0003824"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_0016829",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Catalysis of the cleavage of C-C, C-O, C-N and other bonds by other means than by hydrolysis or oxidation, or conversely adding a group to a double bond. They differ from other enzymes in that two substrates are involved in one reaction direction, but only one in the other direction. When acting on the single substrate, a molecule is eliminated and this generates either a new double bond or a new ring."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "EC:4"
+  }, {
+    "@value" : "RHEA:34091"
+  }, {
+    "@value" : "Reactome:R-HSA-5696408"
+  }, {
+    "@value" : "Reactome:R-HSA-6782895"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym" : [ {
+    "@value" : "other lyase activity"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:0016829"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_aspergillus"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_candida"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_chembl"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_drosophila"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_generic"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_metagenomics"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_pir"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_yeast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "lyase activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0003824"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_0016853",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Catalysis of the geometric or structural changes within one molecule. Isomerase is the systematic name for any enzyme of EC class 5."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "EC:5"
+  }, {
+    "@value" : "Reactome:R-HSA-6787623"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym" : [ {
+    "@value" : "other isomerase activity"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:0016853"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_aspergillus"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_candida"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_chembl"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_drosophila"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_generic"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_metagenomics"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_pir"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_yeast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "isomerase activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0003824"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_0016874",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Catalysis of the joining of two molecules, or two groups within a single molecule, using the energy from the hydrolysis of ATP, a similar triphosphate, or a pH gradient."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000233" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://github.com/geneontology/go-ontology/issues/19380"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "@value" : "EC:6"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "synthetase activity"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:0016874"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_aspergillus"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_candida"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_chembl"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_drosophila"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_generic"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_metagenomics"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_mouse"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_pir"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_yeast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "ligase activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0003824"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_0030545",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "The function of interacting (directly or indirectly) with receptors such that the proportion of receptors in the active form is changed."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:0030545"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "receptor regulator activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0098772"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_0038023",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Receiving a signal and transmitting it in the cell to initiate a change in cell activity. A signal is a physical entity or change in state that is used to transfer information in order to trigger a response."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@value" : "bf"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@value" : "2011-08-01T02:45:27Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId" : [ {
+    "@value" : "GO:0004872"
+  }, {
+    "@value" : "GO:0019041"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym" : [ {
+    "@value" : "receptor activity"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "receptor activity involved in signal transduction"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:0038023"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_agr"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_chembl"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_drosophila"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_metagenomics"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_mouse"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_pir"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_plant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "signaling receptor activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0060089"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_0045182",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Any molecular function involved in the initiation, activation, perpetuation, repression or termination of polypeptide synthesis at the ribosome."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "@value" : "translation factor activity"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:0045182"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_aspergillus"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_candida"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_drosophila"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_pir"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_plant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "translation regulator activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0003674"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_0060089",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A compound molecular function in which an effector function is controlled by one or more regulatory components."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:0060089"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/go#gocheck_do_not_manually_annotate"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_pir"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "molecular transducer activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0003674"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_0097159",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Interacting selectively and non-covalently with an organic cyclic compound, any molecular entity that contains carbon arranged in a cyclic molecular structure."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@value" : "pr"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@value" : "2011-09-23T02:31:01Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:0097159"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "organic cyclic compound binding"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0005488"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_0098772",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "A molecular function that modulates the activity of a gene product or complex.  Examples include enzyme regulators and channel regulators."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:0098772"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate"
+  }, {
+    "@id" : "http://purl.obolibrary.org/obo/go#goslim_flybase_ribbon"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "molecular function regulator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0003674"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_0140096",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Catalytic activity that acts to modify a protein."
+  } ],
+  "http://purl.obolibrary.org/obo/IAO_0000233" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://github.com/geneontology/go-ontology/issues/14225"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@value" : "pg"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@value" : "2017-09-14T10:32:59Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:0140096"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "catalytic activity, acting on a protein"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0003824"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/GO_1901363",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : [ {
+    "@value" : "Interacting selectively and non-covalently with heterocyclic compound."
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : [ {
+    "@value" : "bf"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : [ {
+    "@value" : "2012-09-14T13:53:50Z"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : [ {
+    "@value" : "molecular_function"
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : [ {
+    "@value" : "GO:1901363"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "heterocyclic compound binding"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0005488"
+  } ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000115",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000233",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.obolibrary.org/obo/IAO_0000589",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/identifier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_000796",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/identifier" : [ {
+    "@value" : "SIO_000796"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "The role of a chemical participant that serves to increase the rate of reaction by lowering the activiation energy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://semanticscience.org/ontology/sio.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "catalytic role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_000880"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_000797",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/identifier" : [ {
+    "@value" : "SIO_000797"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "The role of a chemical entity that is modified in a chemical reaction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://semanticscience.org/ontology/sio.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "substrate role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_000879"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_000799",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/identifier" : [ {
+    "@value" : "SIO_000799"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "The role of a chemical entity involved in the mechanism for enzyme-mediated catalysis."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://semanticscience.org/ontology/sio.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cofactor role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_000889"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_000800",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/identifier" : [ {
+    "@value" : "SIO_000800"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "A co-factor role in which the chemical entity is modified during catalysis and must be regenerated."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://semanticscience.org/ontology/sio.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "co-enzyme role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_000797"
+  }, {
+    "@id" : "http://semanticscience.org/resource/SIO_000799"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_000801",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/identifier" : [ {
+    "@value" : "SIO_000801"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "A coenzyme role of a chemical entity that is covalently bonded to the  enzyme."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://semanticscience.org/ontology/sio.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "prosthetic group role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_000800"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_000802",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/identifier" : [ {
+    "@value" : "SIO_000802"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "A co-enzyme role of a chemical entity that is transiently associated, and is regenerated in a separate reaction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://semanticscience.org/ontology/sio.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "co-substrate role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_000800"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_000803",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/identifier" : [ {
+    "@value" : "SIO_000803"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "The role of a chemical entity that reduces the rate of reaction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://semanticscience.org/ontology/sio.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "inhibitor role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_000880"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_000804",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/identifier" : [ {
+    "@value" : "SIO_000804"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "The role of a chemical entity that increases the rate of reaction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://semanticscience.org/ontology/sio.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "activator role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_000880"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_000879",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/identifier" : [ {
+    "@value" : "SIO_000879"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "The role of a chemical entity present at the beginning of a chemical reaction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://semanticscience.org/ontology/sio.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "reactant role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_000889"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_000880",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/identifier" : [ {
+    "@value" : "SIO_000880"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "The role of a chemical entity that modifies the rate of reaction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://semanticscience.org/ontology/sio.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "regulator role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_000889"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_000889",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/identifier" : [ {
+    "@value" : "SIO_000889"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "A molecular entity role is a chemical entity role held by a molecule."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://semanticscience.org/ontology/sio.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "molecular entity role"
+  } ]
+}, {
+  "@id" : "http://semanticscience.org/resource/SIO_000896",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://purl.org/dc/elements/1.1/identifier" : [ {
+    "@value" : "SIO_000896"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "A molecular tracer role is a reactant role of a molecular entity that serves as a marker for the presence, abundance, or location of a molecular target that it associates with."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://semanticscience.org/ontology/sio.owl"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "molecular tracer role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_000879"
+  } ]
+}, {
+  "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasDbXref",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.geneontology.org/formats/oboInOwl#inSubset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Adrian Stremtan"
+  }, {
+    "@value" : "Carla Alejandre Villalobos"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@value" : "Bcontology"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@value" : "https://creativecommons.org/licenses/by/4.0"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#5HR2A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#PDB_ID" : [ {
+    "@value" : "4IB4"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#HTR2A"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Olanzanpine"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#proteinName" : [ {
+    "@language" : "en",
+    "@value" : "5-hydroxytryptamine receptor 2A"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIMnumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "109690"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneEncondesProduct" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#B1AR"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneSymbol" : [ {
+    "@value" : "ADRB1"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasConsequence" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Congestive_heart_failure"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene" ],
+  "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P100" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "109690"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneEncondesProduct" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#B2AR"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneSymbol" : [ {
+    "@value" : "ADRB2"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasConsequence" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Asthma"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_000880"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Amphetamine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SodiumDependentDopamineTransporter"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName" : [ {
+    "@value" : "Amphetamine"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "135.21"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Inhibitor"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#AttentionDeficitHyperactivityDisorder"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_000880"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Asthma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIM_trait" : [ {
+    "@value" : "Asthma (LOF)"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#diseaseName" : [ {
+    "@value" : "Asthma"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasChemicalTreatment" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Clenbuterol"
+  }, {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Fenoterol"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB2"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#AttentionDeficitHyperactivityDisorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIM_trait" : [ {
+    "@value" : "Attention-deficit hyperactivity disorder (GOF)"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#diseaseName" : [ {
+    "@value" : "Attention Deficit Hyperactivity Disorder"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasChemicalTreatment" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Amphetamine"
+  }, {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Dextroamphetamine"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SLC6A3"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#B1AR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#PDB_ID" : [ {
+    "@value" : "2Y00"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB1"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Carvedilol"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#proteinName" : [ {
+    "@language" : "en",
+    "@value" : "Beta-1 adrenergic receptor"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#B2AR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#PDB_ID" : [ {
+    "@value" : "3SN6"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB2"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Clenbuterol"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#proteinName" : [ {
+    "@language" : "en",
+    "@value" : "Beta-2 adrenergic receptor"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#CardiovascularDisease",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#InbornMetabolicDisease"
+  }, {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease"
+  }, {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease"
+  }, {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Carvedilol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#B1AR"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName" : [ {
+    "@value" : "Carvedilol"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "406.5"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Congestive_heart_failure"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Clenbuterol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB2"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName" : [ {
+    "@value" : "Clenbuterol"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "182.5"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Asthma"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Congestive_heart_failure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#CardiovascularDisease" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIM_trait" : [ {
+    "@value" : "Congestive heart failure and beta-blocker response (GOF)"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#diseaseName" : [ {
+    "@value" : "Congestive heart failure"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasChemicalTreatment" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Carvedilol"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB1"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Dextroamphetamine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SLC6A3"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName" : [ {
+    "@value" : "Dextroamphetamine"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "135.2"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Inhibitor"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#AttentionDeficitHyperactivityDisorder"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "disease"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Drug: chemical component with a physiological function"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "drug"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Fenoterol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB2"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName" : [ {
+    "@value" : "Fenoterol"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "303.35"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Asthma"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "gene"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#HTR2A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene" ],
+  "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P100" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "182135"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneSymbol" : [ {
+    "@value" : "HTR2A"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#InbornMetabolicDisease",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease"
+  }, {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease"
+  }, {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Inhibitor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://semanticscience.org/resource/SIO_000803" ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease"
+  }, {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIM_trait",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIMnumber",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Olanzanpine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#5HR2A"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName" : [ {
+    "@value" : "Olanzapine"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#float",
+    "@value" : "312.4"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Schizophrenia"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#PDB_ID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "protein"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SLC6A3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIMnumber" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "126455"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneEncondesProduct" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SodiumDependentDopamineTransporter"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneSymbol" : [ {
+    "@value" : "SLC6A3"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasConsequence" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#AttentionDeficitHyperactivityDisorder"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Schizophrenia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIM_trait" : [ {
+    "@value" : "Schizophrenia (GOF)"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#diseaseName" : [ {
+    "@value" : "Schizophrenia"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasChemicalTreatment" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Olanzanpine"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#5HR2A"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SodiumDependentDopamineTransporter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#PDB_ID" : [ {
+    "@value" : "4M48"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SLC6A3"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Amphetamine"
+  } ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#proteinName" : [ {
+    "@language" : "en",
+    "@value" : "Sodium Dependent Dopamine Transporter"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "target protein"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#diseaseName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneEncondesProduct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneSymbol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasChemicalTreatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasConsequence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasFunction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "molecular function of a protein"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.obolibrary.org/obo/GO_0003674"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://semanticscience.org/resource/SIO_000889"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene"
+  } ]
+}, {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#proteinName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Protein Name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+} ]
