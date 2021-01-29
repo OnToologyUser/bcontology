@@ -936,7 +936,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasMass"
   } ]
 }, {
   "@id" : "_:genid66",
@@ -952,7 +952,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ],
   "http://www.w3.org/2002/07/owl#onProperty" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasMass"
   } ]
 }, {
   "@id" : "_:genid7",
@@ -1013,7 +1013,7 @@
     "@value" : "OMIM_Number"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIMnumber"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OMIMnumber"
   } ]
 }, {
   "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P96",
@@ -1030,7 +1030,7 @@
     "@value" : "Gene_Encodes_Product"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneEncondesProduct"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneEncondesProduct"
   } ]
 }, {
   "@id" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R54",
@@ -1048,7 +1048,7 @@
     "@value" : "Gene_Product_Encoded_By_Gene"
   } ],
   "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductEncodedByGene"
   } ]
 }, {
   "@id" : "http://purl.obolibrary.org/obo/GO_0003674",
@@ -2182,7 +2182,7 @@
   "@id" : "http://www.geneontology.org/formats/oboInOwl#inSubset",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/creator" : [ {
     "@value" : "Adrian Stremtan"
@@ -2199,56 +2199,56 @@
     "@id" : "http://www.semanticweb.org/carla/ontologies/2021/0/bconto"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#5HR2A",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein" ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#PDB_ID" : [ {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#5HR2A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#TargetProtein" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#PDB_ID" : [ {
     "@value" : "4IB4"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#HTR2A"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductEncodedByGene" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#HTR2A"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Olanzanpine"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductIsAffectedByDrug" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Olanzanpine"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#proteinName" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#proteinName" : [ {
     "@language" : "en",
     "@value" : "5-hydroxytryptamine receptor 2A"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene" ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIMnumber" : [ {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#ADRB1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#DiseaseRelatedGene" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OMIMnumber" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "109690"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneEncondesProduct" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#B1AR"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneEncondesProduct" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#B1AR"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneSymbol" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneSymbol" : [ {
     "@value" : "ADRB1"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasConsequence" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Congestive_heart_failure"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasConsequence" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Congestive_heart_failure"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene" ],
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#ADRB2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#DiseaseRelatedGene" ],
   "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P100" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "109690"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneEncondesProduct" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#B2AR"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneEncondesProduct" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#B2AR"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneSymbol" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneSymbol" : [ {
     "@value" : "ADRB2"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasConsequence" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Asthma"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasConsequence" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Asthma"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist" ],
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Agonist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Agonist" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A regulatory role of a drug that binds to a receptor, producing a similar response to the intended chemical and receptor."
@@ -2261,30 +2261,30 @@
     "@id" : "http://semanticscience.org/resource/SIO_000880"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Antagonist"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Amphetamine",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug" ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SodiumDependentDopamineTransporter"
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Amphetamine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#drugAffectsGeneProduct" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#SodiumDependentDopamineTransporter"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#drugName" : [ {
     "@value" : "Amphetamine"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasMass" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
     "@value" : "135.21"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Inhibitor"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasRole" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Inhibitor"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#AttentionDeficitHyperactivityDisorder"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isChemicalTreatmeantFor" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#AttentionDeficitHyperactivityDisorder"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist" ],
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Antagonist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Antagonist" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "A regulatory role of a drug that binds to a receptor either on the primary site, or on another site, which all together stops the receptor from producing a response."
@@ -2297,73 +2297,73 @@
     "@id" : "http://semanticscience.org/resource/SIO_000880"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Asthma",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease" ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIM_trait" : [ {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Asthma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#RespiratoryDisease" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OMIM_trait" : [ {
     "@value" : "Asthma (LOF)"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#diseaseName" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#diseaseName" : [ {
     "@value" : "Asthma"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasChemicalTreatment" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Clenbuterol"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasChemicalTreatment" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Clenbuterol"
   }, {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Fenoterol"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Fenoterol"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB2"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isConsequenceOf" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#ADRB2"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#AttentionDeficitHyperactivityDisorder",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease" ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIM_trait" : [ {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#AttentionDeficitHyperactivityDisorder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#NeurologicalDisease" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OMIM_trait" : [ {
     "@value" : "Attention-deficit hyperactivity disorder (GOF)"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#diseaseName" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#diseaseName" : [ {
     "@value" : "Attention Deficit Hyperactivity Disorder"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasChemicalTreatment" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Amphetamine"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasChemicalTreatment" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Amphetamine"
   }, {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Dextroamphetamine"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Dextroamphetamine"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SLC6A3"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isConsequenceOf" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#SLC6A3"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#B1AR",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein" ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#PDB_ID" : [ {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#B1AR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#TargetProtein" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#PDB_ID" : [ {
     "@value" : "2Y00"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB1"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductEncodedByGene" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#ADRB1"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Carvedilol"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductIsAffectedByDrug" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Carvedilol"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#proteinName" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#proteinName" : [ {
     "@language" : "en",
     "@value" : "Beta-1 adrenergic receptor"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#B2AR",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein" ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#PDB_ID" : [ {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#B2AR",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#TargetProtein" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#PDB_ID" : [ {
     "@value" : "3SN6"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB2"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductEncodedByGene" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#ADRB2"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Clenbuterol"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductIsAffectedByDrug" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Clenbuterol"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#proteinName" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#proteinName" : [ {
     "@language" : "en",
     "@value" : "Beta-2 adrenergic receptor"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#CardiovascularDisease",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#CardiovascularDisease",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2374,91 +2374,91 @@
     "@value" : "cardiovascular disease"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#GeneRelatedDisease"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#InbornMetabolicDisease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#InbornMetabolicDisease"
   }, {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#NeurologicalDisease"
   }, {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OncologicalDisease"
   }, {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#RespiratoryDisease"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Carvedilol",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug" ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#B1AR"
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Carvedilol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#drugAffectsGeneProduct" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#B1AR"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#drugName" : [ {
     "@value" : "Carvedilol"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasMass" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
     "@value" : "406.5"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasRole" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Antagonist"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Congestive_heart_failure"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isChemicalTreatmeantFor" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Congestive_heart_failure"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Clenbuterol",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug" ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB2"
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Clenbuterol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#drugAffectsGeneProduct" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#ADRB2"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#drugName" : [ {
     "@value" : "Clenbuterol"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasMass" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
     "@value" : "182.5"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasRole" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Agonist"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Asthma"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isChemicalTreatmeantFor" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Asthma"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Congestive_heart_failure",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#CardiovascularDisease" ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIM_trait" : [ {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Congestive_heart_failure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#CardiovascularDisease" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OMIM_trait" : [ {
     "@value" : "Congestive heart failure and beta-blocker response (GOF)"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#diseaseName" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#diseaseName" : [ {
     "@value" : "Congestive heart failure"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasChemicalTreatment" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Carvedilol"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasChemicalTreatment" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Carvedilol"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB1"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isConsequenceOf" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#ADRB1"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Dextroamphetamine",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease" ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SLC6A3"
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Dextroamphetamine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#NeurologicalDisease" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#drugAffectsGeneProduct" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#SLC6A3"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#drugName" : [ {
     "@value" : "Dextroamphetamine"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasMass" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
     "@value" : "135.2"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Inhibitor"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasRole" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Inhibitor"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#AttentionDeficitHyperactivityDisorder"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isChemicalTreatmeantFor" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#AttentionDeficitHyperactivityDisorder"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Disease",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2469,7 +2469,7 @@
     "@value" : "disease"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#DiseaseRelatedGene",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2480,10 +2480,10 @@
     "@value" : "disease related gene"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Gene"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2494,26 +2494,26 @@
     "@value" : "drug"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Fenoterol",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug" ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB2"
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Fenoterol",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#drugAffectsGeneProduct" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#ADRB2"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#drugName" : [ {
     "@value" : "Fenoterol"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasMass" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
     "@value" : "303.35"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasRole" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Agonist"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Asthma"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isChemicalTreatmeantFor" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Asthma"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Gene",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2524,7 +2524,7 @@
     "@value" : "gene"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#GeneRelatedDisease",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2535,20 +2535,20 @@
     "@value" : "gene related disease"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Disease"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#HTR2A",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene" ],
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#HTR2A",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#DiseaseRelatedGene" ],
   "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P100" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "182135"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneSymbol" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneSymbol" : [ {
     "@value" : "HTR2A"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#InbornMetabolicDisease",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#InbornMetabolicDisease",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2559,20 +2559,20 @@
     "@value" : "inborn metabolic disease"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#GeneRelatedDisease"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#NeurologicalDisease"
   }, {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OncologicalDisease"
   }, {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#RespiratoryDisease"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Inhibitor",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Inhibitor",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://semanticscience.org/resource/SIO_000803" ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#NeurologicalDisease",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2583,18 +2583,18 @@
     "@value" : "neurological disease"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#GeneRelatedDisease"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OncologicalDisease"
   }, {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#RespiratoryDisease"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIM_trait",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OMIM_trait",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Disease"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2604,10 +2604,10 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIMnumber",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OMIMnumber",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Gene"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2620,26 +2620,26 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Olanzanpine",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug" ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#5HR2A"
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Olanzanpine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#drugAffectsGeneProduct" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#5HR2A"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#drugName" : [ {
     "@value" : "Olanzapine"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasMass" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#float",
     "@value" : "312.4"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasRole" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Antagonist"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Schizophrenia"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isChemicalTreatmeantFor" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Schizophrenia"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OncologicalDisease",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2650,16 +2650,16 @@
     "@value" : "oncological disease"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#GeneRelatedDisease"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#RespiratoryDisease"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#PDB_ID",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#PDB_ID",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Protein"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2669,7 +2669,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Protein",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2680,7 +2680,7 @@
     "@value" : "protein"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#RespiratoryDisease",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2691,57 +2691,57 @@
     "@value" : "respiratory disease"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#GeneRelatedDisease"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SLC6A3",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene" ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIMnumber" : [ {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#SLC6A3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#DiseaseRelatedGene" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OMIMnumber" : [ {
     "@type" : "http://www.w3.org/2001/XMLSchema#integer",
     "@value" : "126455"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneEncondesProduct" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SodiumDependentDopamineTransporter"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneEncondesProduct" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#SodiumDependentDopamineTransporter"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneSymbol" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneSymbol" : [ {
     "@value" : "SLC6A3"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasConsequence" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#AttentionDeficitHyperactivityDisorder"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasConsequence" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#AttentionDeficitHyperactivityDisorder"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Schizophrenia",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease" ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIM_trait" : [ {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Schizophrenia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#NeurologicalDisease" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OMIM_trait" : [ {
     "@value" : "Schizophrenia (GOF)"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#diseaseName" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#diseaseName" : [ {
     "@value" : "Schizophrenia"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasChemicalTreatment" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Olanzanpine"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasChemicalTreatment" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Olanzanpine"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#5HR2A"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isConsequenceOf" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#5HR2A"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SodiumDependentDopamineTransporter",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein" ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#PDB_ID" : [ {
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#SodiumDependentDopamineTransporter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#TargetProtein" ],
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#PDB_ID" : [ {
     "@value" : "4M48"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SLC6A3"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductEncodedByGene" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#SLC6A3"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Amphetamine"
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductIsAffectedByDrug" : [ {
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Amphetamine"
   } ],
-  "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#proteinName" : [ {
+  "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#proteinName" : [ {
     "@language" : "en",
     "@value" : "Sodium Dependent Dopamine Transporter"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#TargetProtein",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -2752,13 +2752,13 @@
     "@value" : "target protein"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Protein"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#diseaseName",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#diseaseName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Disease"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2768,26 +2768,26 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#drugAffectsGeneProduct",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "drugAffectsGeneProduct"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#TargetProtein"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductIsAffectedByDrug"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#drugName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2797,52 +2797,52 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneEncondesProduct",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneEncondesProduct",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Gene"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "geneEncodesProduct"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Protein"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductEncodedByGene"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductEncodedByGene",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Protein"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "geneProductEncodedByGene"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Gene"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductIsAffectedByDrug",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#TargetProtein"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "geneProductIsAffectedByDrug"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneSymbol",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneSymbol",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Gene"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2852,45 +2852,45 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasChemicalTreatment",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasChemicalTreatment",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Disease"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasChemicalTreatment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isChemicalTreatmeantFor"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasConsequence",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasConsequence",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#DiseaseRelatedGene"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "hasConsequence"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#GeneRelatedDisease"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isConsequenceOf"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasFunction",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasFunction",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@value" : "molecular function of a protein"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Protein"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2900,10 +2900,10 @@
     "@id" : "http://purl.obolibrary.org/obo/GO_0003674"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasMass",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2913,10 +2913,10 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasRole",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -2926,36 +2926,36 @@
     "@id" : "http://semanticscience.org/resource/SIO_000889"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isChemicalTreatmeantFor",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "isChemicalTreatmentFor"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Disease"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isConsequenceOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#GeneRelatedDisease"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "isConsequenceOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#DiseaseRelatedGene"
   } ]
 }, {
-  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#proteinName",
+  "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#proteinName",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"
+    "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Protein"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
