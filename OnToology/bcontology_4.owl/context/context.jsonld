@@ -1,7 +1,7 @@
 {
   "@context" : {
     "OMIM_trait" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIM_trait",
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OMIM_trait",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "hasNarrowSynonym" : {
@@ -29,11 +29,11 @@
       "@id" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"
     },
     "drugName" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName",
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#drugName",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "DiseaseRelatedGene" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene"
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#DiseaseRelatedGene"
     },
     "SIO_000880" : {
       "@id" : "http://semanticscience.org/resource/SIO_000880"
@@ -45,48 +45,48 @@
       "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"
     },
     "Antagonist" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist"
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Antagonist"
     },
     "hasRole" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole",
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasRole",
       "@type" : "@id"
     },
     "SIO_000801" : {
       "@id" : "http://semanticscience.org/resource/SIO_000801"
     },
     "geneEncondesProduct" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneEncondesProduct",
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneEncondesProduct",
       "@type" : "@id"
     },
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "OMIMnumber" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIMnumber",
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OMIMnumber",
       "@type" : "http://www.w3.org/2001/XMLSchema#integer"
     },
     "GO_0003824" : {
       "@id" : "http://purl.obolibrary.org/obo/GO_0003824"
     },
     "isChemicalTreatmeantFor" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor",
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isChemicalTreatmeantFor",
       "@type" : "@id"
     },
     "OncologicalDisease" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease"
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OncologicalDisease"
     },
     "SIO_000803" : {
       "@id" : "http://semanticscience.org/resource/SIO_000803"
     },
     "isConsequenceOf" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf",
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isConsequenceOf",
       "@type" : "@id"
     },
     "NeurologicalDisease" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease"
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#NeurologicalDisease"
     },
     "geneSymbol" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneSymbol",
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneSymbol",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "id" : {
@@ -96,27 +96,27 @@
       "@id" : "http://www.geneontology.org/formats/oboInOwl#inSubset"
     },
     "geneProductIsAffectedByDrug" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug",
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductIsAffectedByDrug",
       "@type" : "@id"
     },
     "SIO_000799" : {
       "@id" : "http://semanticscience.org/resource/SIO_000799"
     },
     "Disease" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Disease"
     },
     "created_by" : {
       "@id" : "http://www.geneontology.org/formats/oboInOwl#created_by"
     },
     "hasConsequence" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasConsequence",
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasConsequence",
       "@type" : "@id"
     },
     "GO_0003674" : {
       "@id" : "http://purl.obolibrary.org/obo/GO_0003674"
     },
     "Agonist" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist"
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Agonist"
     },
     "GO_0016740" : {
       "@id" : "http://purl.obolibrary.org/obo/GO_0016740"
@@ -125,14 +125,14 @@
       "@id" : "http://www.geneontology.org/formats/oboInOwl#creation_date"
     },
     "Drug" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug"
     },
     "hasChemicalTreatment" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasChemicalTreatment",
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasChemicalTreatment",
       "@type" : "@id"
     },
     "drugAffectsGeneProduct" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct",
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#drugAffectsGeneProduct",
       "@type" : "@id"
     },
     "SIO_000879" : {
@@ -154,14 +154,14 @@
       "@id" : "http://purl.obolibrary.org/obo/GO_0004930"
     },
     "PDB_ID" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#PDB_ID",
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#PDB_ID",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "SIO_000796" : {
       "@id" : "http://semanticscience.org/resource/SIO_000796"
     },
     "hasMass" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass",
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasMass",
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
     "SIO_000802" : {
@@ -174,18 +174,18 @@
       "@id" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"
     },
     "geneProductEncodedByGene" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene",
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductEncodedByGene",
       "@type" : "@id"
     },
     "GO_0016491" : {
       "@id" : "http://purl.obolibrary.org/obo/GO_0016491"
     },
     "diseaseName" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#diseaseName",
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#diseaseName",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "Gene" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Gene"
     },
     "SIO_000804" : {
       "@id" : "http://semanticscience.org/resource/SIO_000804"
@@ -203,14 +203,14 @@
       "@id" : "http://semanticscience.org/resource/SIO_000800"
     },
     "hasFunction" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasFunction",
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasFunction",
       "@type" : "@id"
     },
     "title" : {
       "@id" : "http://purl.org/dc/elements/1.1/title"
     },
     "TargetProtein" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein"
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#TargetProtein"
     },
     "SIO_000896" : {
       "@id" : "http://semanticscience.org/resource/SIO_000896"
@@ -238,7 +238,7 @@
       "@id" : "http://purl.obolibrary.org/obo/GO_0038023"
     },
     "proteinName" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#proteinName",
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#proteinName",
       "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
     },
     "hasBroadSynonym" : {
@@ -260,7 +260,7 @@
       "@id" : "http://purl.obolibrary.org/obo/GO_0016829"
     },
     "InbornMetabolicDisease" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#InbornMetabolicDisease"
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#InbornMetabolicDisease"
     },
     "GO_0005488" : {
       "@id" : "http://purl.obolibrary.org/obo/GO_0005488"
@@ -272,13 +272,13 @@
       "@id" : "http://purl.obolibrary.org/obo/GO_0016209"
     },
     "GeneRelatedDisease" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#GeneRelatedDisease"
     },
     "CardiovascularDisease" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#CardiovascularDisease"
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#CardiovascularDisease"
     },
     "RespiratoryDisease" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease"
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#RespiratoryDisease"
     },
     "description" : {
       "@id" : "http://purl.org/dc/terms/description"
@@ -291,7 +291,7 @@
       "@id" : "http://purl.obolibrary.org/obo/IAO_0000115"
     },
     "Protein" : {
-      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"
+      "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Protein"
     }
   }
 }
