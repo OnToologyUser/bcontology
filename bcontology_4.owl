@@ -14,9 +14,10 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:Thesaurus="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"
+     xmlns:bcontology="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#"
      xmlns:bcontology_3="https://github.com/adrian-str/bcontology/blob/main/bcontology_3.owl#"
      xmlns:bcontology_4="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#">
-    <owl:Ontology rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl">
+    <owl:Ontology rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl">
         <dc:creator>Adrian Stremtan</dc:creator>
         <dc:creator>Carla Alejandre Villalobos</dc:creator>
         <dc:title>Bcontology</dc:title>
@@ -165,7 +166,7 @@
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P96 -->
 
     <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P96">
-        <owl:equivalentProperty rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneEncondesProduct"/>
+        <owl:equivalentProperty rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneEncondesProduct"/>
         <rdfs:comment xml:lang="en">A property representing the protein or RNA product expressed by a gene.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="en">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#</rdfs:isDefinedBy>
         <rdfs:label>Gene_Encodes_Product</rdfs:label>
@@ -176,7 +177,7 @@
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R54 -->
 
     <owl:ObjectProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#R54">
-        <owl:equivalentProperty rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene"/>
+        <owl:equivalentProperty rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductEncodedByGene"/>
         <rdfs:comment xml:lang="en">A role used to assert a relationship between a gene product and the gene that encodes it. The domain and range for this role are &apos;Gene Product&apos; and &apos;Gene&apos;, respectively.</rdfs:comment>
         <rdfs:isDefinedBy xml:lang="en">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">Gene_Product_Encoded_By_Gene</rdfs:label>
@@ -184,74 +185,74 @@
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#drugAffectsGeneProduct -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct">
-        <owl:inverseOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug"/>
-        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"/>
-        <rdfs:range rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein"/>
+    <owl:ObjectProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#drugAffectsGeneProduct">
+        <owl:inverseOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductIsAffectedByDrug"/>
+        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug"/>
+        <rdfs:range rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#TargetProtein"/>
         <rdfs:label xml:lang="en">drugAffectsGeneProduct</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneEncondesProduct -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneEncondesProduct -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneEncondesProduct">
-        <owl:inverseOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene"/>
-        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"/>
-        <rdfs:range rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"/>
+    <owl:ObjectProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneEncondesProduct">
+        <owl:inverseOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductEncodedByGene"/>
+        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Gene"/>
+        <rdfs:range rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Protein"/>
         <rdfs:label xml:lang="en">geneEncodesProduct</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductEncodedByGene -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene">
-        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"/>
-        <rdfs:range rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"/>
+    <owl:ObjectProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductEncodedByGene">
+        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Protein"/>
+        <rdfs:range rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Gene"/>
         <rdfs:label xml:lang="en">geneProductEncodedByGene</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductIsAffectedByDrug -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug">
-        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein"/>
-        <rdfs:range rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"/>
+    <owl:ObjectProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneProductIsAffectedByDrug">
+        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#TargetProtein"/>
+        <rdfs:range rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug"/>
         <rdfs:label xml:lang="en">geneProductIsAffectedByDrug</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasChemicalTreatment -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasChemicalTreatment -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasChemicalTreatment">
-        <owl:inverseOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor"/>
-        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"/>
-        <rdfs:range rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"/>
+    <owl:ObjectProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasChemicalTreatment">
+        <owl:inverseOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isChemicalTreatmeantFor"/>
+        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Disease"/>
+        <rdfs:range rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug"/>
         <rdfs:label xml:lang="en">hasChemicalTreatment</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasConsequence -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasConsequence -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasConsequence">
-        <owl:inverseOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf"/>
-        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene"/>
-        <rdfs:range rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"/>
+    <owl:ObjectProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasConsequence">
+        <owl:inverseOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isConsequenceOf"/>
+        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#DiseaseRelatedGene"/>
+        <rdfs:range rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#GeneRelatedDisease"/>
         <rdfs:label xml:lang="en">hasConsequence</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasFunction -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasFunction -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasFunction">
-        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"/>
+    <owl:ObjectProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasFunction">
+        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Protein"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
         <rdfs:comment>molecular function of a protein</rdfs:comment>
         <rdfs:label xml:lang="en">hasFunction</rdfs:label>
@@ -259,31 +260,31 @@
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasRole -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole">
-        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"/>
+    <owl:ObjectProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasRole">
+        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug"/>
         <rdfs:range rdf:resource="http://semanticscience.org/resource/SIO_000889"/>
         <rdfs:label xml:lang="en">hasRole</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isChemicalTreatmeantFor -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor">
-        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"/>
-        <rdfs:range rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"/>
+    <owl:ObjectProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isChemicalTreatmeantFor">
+        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug"/>
+        <rdfs:range rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Disease"/>
         <rdfs:label xml:lang="en">isChemicalTreatmentFor</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isConsequenceOf -->
 
-    <owl:ObjectProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf">
-        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"/>
-        <rdfs:range rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene"/>
+    <owl:ObjectProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#isConsequenceOf">
+        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#GeneRelatedDisease"/>
+        <rdfs:range rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#DiseaseRelatedGene"/>
         <rdfs:label xml:lang="en">isConsequenceOf</rdfs:label>
     </owl:ObjectProperty>
     
@@ -303,88 +304,88 @@
     <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P100 -->
 
     <owl:DatatypeProperty rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#P100">
-        <owl:equivalentProperty rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIMnumber"/>
+        <owl:equivalentProperty rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OMIMnumber"/>
         <rdfs:isDefinedBy>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#</rdfs:isDefinedBy>
         <rdfs:label>OMIM_Number</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIM_trait -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OMIM_trait -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIM_trait">
-        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"/>
+    <owl:DatatypeProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OMIM_trait">
+        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Disease"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">OMIM_trait</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIMnumber -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OMIMnumber -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIMnumber">
+    <owl:DatatypeProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OMIMnumber">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
-        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"/>
+        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Gene"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
         <rdfs:label xml:lang="en">OMIMnumber</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#PDB_ID -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#PDB_ID -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#PDB_ID">
-        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"/>
+    <owl:DatatypeProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#PDB_ID">
+        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Protein"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">PDB_ID</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#diseaseName -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#diseaseName -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#diseaseName">
-        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"/>
+    <owl:DatatypeProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#diseaseName">
+        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Disease"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">diseaseName</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#drugName -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName">
-        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"/>
+    <owl:DatatypeProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#drugName">
+        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">drugName</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneSymbol -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneSymbol -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneSymbol">
-        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"/>
+    <owl:DatatypeProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#geneSymbol">
+        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Gene"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:label xml:lang="en">geneSymbol</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasMass -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass">
-        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"/>
+    <owl:DatatypeProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasMass">
+        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:label xml:lang="en">hasMass</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#proteinName -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#proteinName -->
 
-    <owl:DatatypeProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#proteinName">
-        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"/>
+    <owl:DatatypeProperty rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#proteinName">
+        <rdfs:domain rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Protein"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
         <rdfs:label xml:lang="en">proteinName</rdfs:label>
     </owl:DatatypeProperty>
@@ -1387,40 +1388,40 @@
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Agonist -->
 
-    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist">
+    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Agonist">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000880"/>
-        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist"/>
+        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Antagonist"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Antagonist -->
 
-    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist">
+    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Antagonist">
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000880"/>
     </owl:Class>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#CardiovascularDisease -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#CardiovascularDisease -->
 
-    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#CardiovascularDisease">
-        <rdfs:subClassOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"/>
-        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#InbornMetabolicDisease"/>
-        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease"/>
-        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease"/>
-        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease"/>
+    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#CardiovascularDisease">
+        <rdfs:subClassOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#GeneRelatedDisease"/>
+        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#InbornMetabolicDisease"/>
+        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#NeurologicalDisease"/>
+        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OncologicalDisease"/>
+        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#RespiratoryDisease"/>
         <rdfs:comment xml:lang="en">Group of disorders of heart and blood vessels</rdfs:comment>
         <rdfs:label xml:lang="en">cardiovascular disease</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Disease -->
 
-    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease">
+    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Disease">
         <rdfs:comment xml:lang="en">A disruption to regular bodily structure and function that produces
 specific symptoms or that affects a specific location and is not simply a
 direct result of physical injury.</rdfs:comment>
@@ -1429,83 +1430,83 @@ direct result of physical injury.</rdfs:comment>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#DiseaseRelatedGene -->
 
-    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene">
-        <rdfs:subClassOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"/>
+    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#DiseaseRelatedGene">
+        <rdfs:subClassOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Gene"/>
         <rdfs:comment xml:lang="en">A gene that is related with the appearence of one (or more) disease.</rdfs:comment>
         <rdfs:label xml:lang="en">disease related gene</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug -->
 
-    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug">
+    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug">
         <rdfs:comment xml:lang="en">Chemical component with a physiological function.</rdfs:comment>
         <rdfs:label xml:lang="en">drug</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Gene -->
 
-    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene">
+    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Gene">
         <rdfs:comment xml:lang="en">A linear sequence of nucleotides along a segment of DNA that is the basic physical and functional unit of heredity.</rdfs:comment>
         <rdfs:label xml:lang="en">gene</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#GeneRelatedDisease -->
 
-    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease">
-        <rdfs:subClassOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"/>
+    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#GeneRelatedDisease">
+        <rdfs:subClassOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Disease"/>
         <rdfs:comment xml:lang="en">Disease that has been linked to some specific genes.</rdfs:comment>
         <rdfs:label xml:lang="en">gene related disease</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#InbornMetabolicDisease -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#InbornMetabolicDisease -->
 
-    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#InbornMetabolicDisease">
-        <rdfs:subClassOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"/>
-        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease"/>
-        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease"/>
-        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease"/>
+    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#InbornMetabolicDisease">
+        <rdfs:subClassOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#GeneRelatedDisease"/>
+        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#NeurologicalDisease"/>
+        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OncologicalDisease"/>
+        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#RespiratoryDisease"/>
         <rdfs:comment xml:lang="en">Inherited metabolic disorders refer to different types of medical conditions caused by genetic defects — most commonly inherited from both parents — that interfere with the body&apos;s metabolism.</rdfs:comment>
         <rdfs:label xml:lang="en">inborn metabolic disease</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#NeurologicalDisease -->
 
-    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease">
-        <rdfs:subClassOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"/>
-        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease"/>
-        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease"/>
+    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#NeurologicalDisease">
+        <rdfs:subClassOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#GeneRelatedDisease"/>
+        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OncologicalDisease"/>
+        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#RespiratoryDisease"/>
         <rdfs:comment xml:lang="en">Disorders that affect the brain as well as the nerves found throughout the human body and the spinal cord.</rdfs:comment>
         <rdfs:label xml:lang="en">neurological disease</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OncologicalDisease -->
 
-    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease">
-        <rdfs:subClassOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"/>
-        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease"/>
+    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#OncologicalDisease">
+        <rdfs:subClassOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#GeneRelatedDisease"/>
+        <owl:disjointWith rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#RespiratoryDisease"/>
         <rdfs:comment xml:lang="en">Disease related to the formation of tumours (= masses of cells, as in cancer) in the body.</rdfs:comment>
         <rdfs:label xml:lang="en">oncological disease</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Protein -->
 
-    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein">
+    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Protein">
         <rdfs:comment xml:lang="en">Large molecules composed of one or more chains of amino acids in a 
 specific order determined by the base sequence of nucleotides in the 
 DNA coding for the protein.</rdfs:comment>
@@ -1514,20 +1515,20 @@ DNA coding for the protein.</rdfs:comment>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#RespiratoryDisease -->
 
-    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease">
-        <rdfs:subClassOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"/>
+    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#RespiratoryDisease">
+        <rdfs:subClassOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#GeneRelatedDisease"/>
         <rdfs:comment xml:lang="en">A type of disease that affects the lungs and other parts of the respiratory system.</rdfs:comment>
         <rdfs:label xml:lang="en">respiratory disease</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#TargetProtein -->
 
-    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein">
-        <rdfs:subClassOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"/>
+    <owl:Class rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#TargetProtein">
+        <rdfs:subClassOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Protein"/>
         <rdfs:comment xml:lang="en">Protein targeted by some drug/s.</rdfs:comment>
         <rdfs:label xml:lang="en">target protein</rdfs:label>
     </owl:Class>
@@ -1545,253 +1546,253 @@ DNA coding for the protein.</rdfs:comment>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB1 -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#ADRB1 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB1">
-        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene"/>
-        <bcontology_4:geneEncondesProduct rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#B1AR"/>
-        <bcontology_4:hasConsequence rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Congestive_heart_failure"/>
-        <bcontology_4:OMIMnumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109690</bcontology_4:OMIMnumber>
-        <bcontology_4:geneSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADRB1</bcontology_4:geneSymbol>
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#ADRB1">
+        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#DiseaseRelatedGene"/>
+        <bcontology:geneEncondesProduct rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#B1AR"/>
+        <bcontology:hasConsequence rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Congestive_heart_failure"/>
+        <bcontology:OMIMnumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109690</bcontology:OMIMnumber>
+        <bcontology:geneSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADRB1</bcontology:geneSymbol>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB2 -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#ADRB2 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB2">
-        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene"/>
-        <bcontology_4:geneEncondesProduct rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#B2AR"/>
-        <bcontology_4:hasConsequence rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Asthma"/>
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#ADRB2">
+        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#DiseaseRelatedGene"/>
+        <bcontology:geneEncondesProduct rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#B2AR"/>
+        <bcontology:hasConsequence rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Asthma"/>
         <Thesaurus:P100 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">109690</Thesaurus:P100>
-        <bcontology_4:geneSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADRB2</bcontology_4:geneSymbol>
+        <bcontology:geneSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ADRB2</bcontology:geneSymbol>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Agonist -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist">
-        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist"/>
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Agonist">
+        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Agonist"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Amphetamine -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Amphetamine -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Amphetamine">
-        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"/>
-        <bcontology_4:drugAffectsGeneProduct rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SodiumDependentDopamineTransporter"/>
-        <bcontology_4:hasRole rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Inhibitor"/>
-        <bcontology_4:isChemicalTreatmeantFor rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#AttentionDeficitHyperactivityDisorder"/>
-        <bcontology_4:drugName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amphetamine</bcontology_4:drugName>
-        <bcontology_4:hasMass rdf:datatype="http://www.w3.org/2001/XMLSchema#float">135.21</bcontology_4:hasMass>
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Amphetamine">
+        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug"/>
+        <bcontology:drugAffectsGeneProduct rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#SodiumDependentDopamineTransporter"/>
+        <bcontology:hasRole rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Inhibitor"/>
+        <bcontology:isChemicalTreatmeantFor rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#AttentionDeficitHyperactivityDisorder"/>
+        <bcontology:drugName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amphetamine</bcontology:drugName>
+        <bcontology:hasMass rdf:datatype="http://www.w3.org/2001/XMLSchema#float">135.21</bcontology:hasMass>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Antagonist -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist">
-        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist"/>
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Antagonist">
+        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Antagonist"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Asthma -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Asthma -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Asthma">
-        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease"/>
-        <bcontology_4:hasChemicalTreatment rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Clenbuterol"/>
-        <bcontology_4:hasChemicalTreatment rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Fenoterol"/>
-        <bcontology_4:isConsequenceOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB2"/>
-        <bcontology_4:OMIM_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asthma (LOF)</bcontology_4:OMIM_trait>
-        <bcontology_4:diseaseName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asthma</bcontology_4:diseaseName>
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Asthma">
+        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#RespiratoryDisease"/>
+        <bcontology:hasChemicalTreatment rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Clenbuterol"/>
+        <bcontology:hasChemicalTreatment rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Fenoterol"/>
+        <bcontology:isConsequenceOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#ADRB2"/>
+        <bcontology:OMIM_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asthma (LOF)</bcontology:OMIM_trait>
+        <bcontology:diseaseName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asthma</bcontology:diseaseName>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#AttentionDeficitHyperactivityDisorder -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#AttentionDeficitHyperactivityDisorder -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#AttentionDeficitHyperactivityDisorder">
-        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease"/>
-        <bcontology_4:hasChemicalTreatment rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Amphetamine"/>
-        <bcontology_4:hasChemicalTreatment rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Dextroamphetamine"/>
-        <bcontology_4:isConsequenceOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SLC6A3"/>
-        <bcontology_4:OMIM_trait>Attention-deficit hyperactivity disorder (GOF)</bcontology_4:OMIM_trait>
-        <bcontology_4:diseaseName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Attention Deficit Hyperactivity Disorder</bcontology_4:diseaseName>
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#AttentionDeficitHyperactivityDisorder">
+        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#NeurologicalDisease"/>
+        <bcontology:hasChemicalTreatment rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Amphetamine"/>
+        <bcontology:hasChemicalTreatment rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Dextroamphetamine"/>
+        <bcontology:isConsequenceOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#SLC6A3"/>
+        <bcontology:OMIM_trait>Attention-deficit hyperactivity disorder (GOF)</bcontology:OMIM_trait>
+        <bcontology:diseaseName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Attention Deficit Hyperactivity Disorder</bcontology:diseaseName>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#B1AR -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#B1AR -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#B1AR">
-        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein"/>
-        <bcontology_4:geneProductEncodedByGene rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB1"/>
-        <bcontology_4:geneProductIsAffectedByDrug rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Carvedilol"/>
-        <bcontology_4:PDB_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2Y00</bcontology_4:PDB_ID>
-        <bcontology_4:proteinName xml:lang="en">Beta-1 adrenergic receptor</bcontology_4:proteinName>
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#B1AR">
+        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#TargetProtein"/>
+        <bcontology:geneProductEncodedByGene rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#ADRB1"/>
+        <bcontology:geneProductIsAffectedByDrug rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Carvedilol"/>
+        <bcontology:PDB_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2Y00</bcontology:PDB_ID>
+        <bcontology:proteinName xml:lang="en">Beta-1 adrenergic receptor</bcontology:proteinName>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#B2AR -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#B2AR -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#B2AR">
-        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein"/>
-        <bcontology_4:geneProductEncodedByGene rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB2"/>
-        <bcontology_4:geneProductIsAffectedByDrug rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Clenbuterol"/>
-        <bcontology_4:PDB_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3SN6</bcontology_4:PDB_ID>
-        <bcontology_4:proteinName xml:lang="en">Beta-2 adrenergic receptor</bcontology_4:proteinName>
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#B2AR">
+        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#TargetProtein"/>
+        <bcontology:geneProductEncodedByGene rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#ADRB2"/>
+        <bcontology:geneProductIsAffectedByDrug rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Clenbuterol"/>
+        <bcontology:PDB_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3SN6</bcontology:PDB_ID>
+        <bcontology:proteinName xml:lang="en">Beta-2 adrenergic receptor</bcontology:proteinName>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Carvedilol -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Carvedilol -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Carvedilol">
-        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"/>
-        <bcontology_4:drugAffectsGeneProduct rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#B1AR"/>
-        <bcontology_4:hasRole rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist"/>
-        <bcontology_4:isChemicalTreatmeantFor rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Congestive_heart_failure"/>
-        <bcontology_4:drugName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carvedilol</bcontology_4:drugName>
-        <bcontology_4:hasMass rdf:datatype="http://www.w3.org/2001/XMLSchema#float">406.5</bcontology_4:hasMass>
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Carvedilol">
+        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug"/>
+        <bcontology:drugAffectsGeneProduct rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#B1AR"/>
+        <bcontology:hasRole rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Antagonist"/>
+        <bcontology:isChemicalTreatmeantFor rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Congestive_heart_failure"/>
+        <bcontology:drugName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carvedilol</bcontology:drugName>
+        <bcontology:hasMass rdf:datatype="http://www.w3.org/2001/XMLSchema#float">406.5</bcontology:hasMass>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Clenbuterol -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Clenbuterol -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Clenbuterol">
-        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"/>
-        <bcontology_4:drugAffectsGeneProduct rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB2"/>
-        <bcontology_4:hasRole rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist"/>
-        <bcontology_4:isChemicalTreatmeantFor rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Asthma"/>
-        <bcontology_4:drugName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clenbuterol</bcontology_4:drugName>
-        <bcontology_4:hasMass rdf:datatype="http://www.w3.org/2001/XMLSchema#float">182.5</bcontology_4:hasMass>
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Clenbuterol">
+        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug"/>
+        <bcontology:drugAffectsGeneProduct rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#ADRB2"/>
+        <bcontology:hasRole rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Agonist"/>
+        <bcontology:isChemicalTreatmeantFor rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Asthma"/>
+        <bcontology:drugName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clenbuterol</bcontology:drugName>
+        <bcontology:hasMass rdf:datatype="http://www.w3.org/2001/XMLSchema#float">182.5</bcontology:hasMass>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Congestive_heart_failure -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Congestive_heart_failure -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Congestive_heart_failure">
-        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#CardiovascularDisease"/>
-        <bcontology_4:hasChemicalTreatment rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Carvedilol"/>
-        <bcontology_4:isConsequenceOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB1"/>
-        <bcontology_4:OMIM_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Congestive heart failure and beta-blocker response (GOF)</bcontology_4:OMIM_trait>
-        <bcontology_4:diseaseName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Congestive heart failure</bcontology_4:diseaseName>
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Congestive_heart_failure">
+        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#CardiovascularDisease"/>
+        <bcontology:hasChemicalTreatment rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Carvedilol"/>
+        <bcontology:isConsequenceOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#ADRB1"/>
+        <bcontology:OMIM_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Congestive heart failure and beta-blocker response (GOF)</bcontology:OMIM_trait>
+        <bcontology:diseaseName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Congestive heart failure</bcontology:diseaseName>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Dextroamphetamine -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Dextroamphetamine -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Dextroamphetamine">
-        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease"/>
-        <bcontology_4:drugAffectsGeneProduct rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SLC6A3"/>
-        <bcontology_4:hasRole rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Inhibitor"/>
-        <bcontology_4:isChemicalTreatmeantFor rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#AttentionDeficitHyperactivityDisorder"/>
-        <bcontology_4:drugName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dextroamphetamine</bcontology_4:drugName>
-        <bcontology_4:hasMass rdf:datatype="http://www.w3.org/2001/XMLSchema#float">135.2</bcontology_4:hasMass>
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Dextroamphetamine">
+        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#NeurologicalDisease"/>
+        <bcontology:drugAffectsGeneProduct rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#SLC6A3"/>
+        <bcontology:hasRole rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Inhibitor"/>
+        <bcontology:isChemicalTreatmeantFor rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#AttentionDeficitHyperactivityDisorder"/>
+        <bcontology:drugName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dextroamphetamine</bcontology:drugName>
+        <bcontology:hasMass rdf:datatype="http://www.w3.org/2001/XMLSchema#float">135.2</bcontology:hasMass>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Fenoterol -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Fenoterol -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Fenoterol">
-        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"/>
-        <bcontology_4:drugAffectsGeneProduct rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#ADRB2"/>
-        <bcontology_4:hasRole rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist"/>
-        <bcontology_4:isChemicalTreatmeantFor rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Asthma"/>
-        <bcontology_4:drugName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fenoterol</bcontology_4:drugName>
-        <bcontology_4:hasMass rdf:datatype="http://www.w3.org/2001/XMLSchema#float">303.35</bcontology_4:hasMass>
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Fenoterol">
+        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug"/>
+        <bcontology:drugAffectsGeneProduct rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#ADRB2"/>
+        <bcontology:hasRole rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Agonist"/>
+        <bcontology:isChemicalTreatmeantFor rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Asthma"/>
+        <bcontology:drugName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fenoterol</bcontology:drugName>
+        <bcontology:hasMass rdf:datatype="http://www.w3.org/2001/XMLSchema#float">303.35</bcontology:hasMass>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#HTR2A -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#HTR2A -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#HTR2A">
-        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene"/>
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#HTR2A">
+        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#DiseaseRelatedGene"/>
         <Thesaurus:P100 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">182135</Thesaurus:P100>
-        <bcontology_4:geneSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HTR2A</bcontology_4:geneSymbol>
+        <bcontology:geneSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HTR2A</bcontology:geneSymbol>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Inhibitor -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Inhibitor -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Inhibitor">
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Inhibitor">
         <rdf:type rdf:resource="http://semanticscience.org/resource/SIO_000803"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Olanzanpine -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Olanzanpine -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Olanzanpine">
-        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"/>
-        <bcontology_4:drugAffectsGeneProduct rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#5HR2A"/>
-        <bcontology_4:hasRole rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist"/>
-        <bcontology_4:isChemicalTreatmeantFor rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Schizophrenia"/>
-        <bcontology_4:drugName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olanzapine</bcontology_4:drugName>
-        <bcontology_4:hasMass rdf:datatype="http://www.w3.org/2001/XMLSchema#float">312.4</bcontology_4:hasMass>
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Olanzanpine">
+        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Drug"/>
+        <bcontology:drugAffectsGeneProduct rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#5HR2A"/>
+        <bcontology:hasRole rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Antagonist"/>
+        <bcontology:isChemicalTreatmeantFor rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Schizophrenia"/>
+        <bcontology:drugName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Olanzapine</bcontology:drugName>
+        <bcontology:hasMass rdf:datatype="http://www.w3.org/2001/XMLSchema#float">312.4</bcontology:hasMass>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SLC6A3 -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#SLC6A3 -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SLC6A3">
-        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene"/>
-        <bcontology_4:geneEncondesProduct rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SodiumDependentDopamineTransporter"/>
-        <bcontology_4:hasConsequence rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#AttentionDeficitHyperactivityDisorder"/>
-        <bcontology_4:OMIMnumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126455</bcontology_4:OMIMnumber>
-        <bcontology_4:geneSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLC6A3</bcontology_4:geneSymbol>
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#SLC6A3">
+        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#DiseaseRelatedGene"/>
+        <bcontology:geneEncondesProduct rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#SodiumDependentDopamineTransporter"/>
+        <bcontology:hasConsequence rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#AttentionDeficitHyperactivityDisorder"/>
+        <bcontology:OMIMnumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">126455</bcontology:OMIMnumber>
+        <bcontology:geneSymbol rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SLC6A3</bcontology:geneSymbol>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Schizophrenia -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Schizophrenia -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Schizophrenia">
-        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease"/>
-        <bcontology_4:hasChemicalTreatment rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Olanzanpine"/>
-        <bcontology_4:isConsequenceOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#5HR2A"/>
-        <bcontology_4:OMIM_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schizophrenia (GOF)</bcontology_4:OMIM_trait>
-        <bcontology_4:diseaseName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schizophrenia</bcontology_4:diseaseName>
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Schizophrenia">
+        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#NeurologicalDisease"/>
+        <bcontology:hasChemicalTreatment rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Olanzanpine"/>
+        <bcontology:isConsequenceOf rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#5HR2A"/>
+        <bcontology:OMIM_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schizophrenia (GOF)</bcontology:OMIM_trait>
+        <bcontology:diseaseName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schizophrenia</bcontology:diseaseName>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SodiumDependentDopamineTransporter -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#SodiumDependentDopamineTransporter -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SodiumDependentDopamineTransporter">
-        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein"/>
-        <bcontology_4:geneProductEncodedByGene rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#SLC6A3"/>
-        <bcontology_4:geneProductIsAffectedByDrug rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Amphetamine"/>
-        <bcontology_4:PDB_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4M48</bcontology_4:PDB_ID>
-        <bcontology_4:proteinName xml:lang="en">Sodium Dependent Dopamine Transporter</bcontology_4:proteinName>
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#SodiumDependentDopamineTransporter">
+        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#TargetProtein"/>
+        <bcontology:geneProductEncodedByGene rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#SLC6A3"/>
+        <bcontology:geneProductIsAffectedByDrug rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Amphetamine"/>
+        <bcontology:PDB_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4M48</bcontology:PDB_ID>
+        <bcontology:proteinName xml:lang="en">Sodium Dependent Dopamine Transporter</bcontology:proteinName>
     </owl:NamedIndividual>
     
 
 
-    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#5HR2A -->
+    <!-- https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#5HR2A -->
 
-    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#5HR2A">
-        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein"/>
-        <bcontology_4:geneProductEncodedByGene rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#HTR2A"/>
-        <bcontology_4:geneProductIsAffectedByDrug rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Olanzanpine"/>
-        <bcontology_4:PDB_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4IB4</bcontology_4:PDB_ID>
-        <bcontology_4:proteinName xml:lang="en">5-hydroxytryptamine receptor 2A</bcontology_4:proteinName>
+    <owl:NamedIndividual rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#5HR2A">
+        <rdf:type rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#TargetProtein"/>
+        <bcontology:geneProductEncodedByGene rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#HTR2A"/>
+        <bcontology:geneProductIsAffectedByDrug rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Olanzanpine"/>
+        <bcontology:PDB_ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4IB4</bcontology:PDB_ID>
+        <bcontology:proteinName xml:lang="en">5-hydroxytryptamine receptor 2A</bcontology:proteinName>
     </owl:NamedIndividual>
     <rdf:Description>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass"/>
+                <owl:onProperty rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasMass"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
@@ -1800,7 +1801,7 @@ DNA coding for the protein.</rdfs:comment>
     <rdf:Description>
         <rdf:type>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass"/>
+                <owl:onProperty rdf:resource="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#hasMass"/>
                 <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
                 <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
@@ -1817,11 +1818,11 @@ DNA coding for the protein.</rdfs:comment>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist">
-        <rdfs:label xml:lang="en">agonist</rdfs:label>
+    <rdf:Description rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Agonist">
         <rdfs:comment xml:lang="en">A regulatory role of a drug that binds to a receptor, producing a similar response to the intended chemical and receptor.</rdfs:comment>
+        <rdfs:label xml:lang="en">agonist</rdfs:label>
     </rdf:Description>
-    <rdf:Description rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist">
+    <rdf:Description rdf:about="https://github.com/adrian-str/bcontology/blob/main/bcontology.owl#Antagonist">
         <rdfs:comment xml:lang="en">A regulatory role of a drug that binds to a receptor either on the primary site, or on another site, which all together stops the receptor from producing a response.</rdfs:comment>
         <rdfs:label xml:lang="en">antagonist</rdfs:label>
     </rdf:Description>
