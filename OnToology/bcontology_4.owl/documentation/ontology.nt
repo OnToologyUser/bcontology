@@ -98,55 +98,65 @@
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct> <http://www.w3.org/2002/07/owl#inverseOf> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugAffectsGeneProduct> <http://www.w3.org/2000/01/rdf-schema#label> "drugAffectsGeneProduct"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneEncondesProduct
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneEncondesProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneEncondesProduct> <http://www.w3.org/2002/07/owl#inverseOf> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneEncondesProduct> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneEncondesProduct> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneEncondesProduct> <http://www.w3.org/2000/01/rdf-schema#label> "geneEncodesProduct"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductEncodedByGene> <http://www.w3.org/2000/01/rdf-schema#label> "geneProductEncodedByGene"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneProductIsAffectedByDrug> <http://www.w3.org/2000/01/rdf-schema#label> "geneProductIsAffectedByDrug"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasChemicalTreatment
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasChemicalTreatment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasChemicalTreatment> <http://www.w3.org/2002/07/owl#inverseOf> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasChemicalTreatment> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasChemicalTreatment> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasChemicalTreatment> <http://www.w3.org/2000/01/rdf-schema#label> "hasChemicalTreatment"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasConsequence
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasConsequence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasConsequence> <http://www.w3.org/2002/07/owl#inverseOf> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasConsequence> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasConsequence> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasConsequence> <http://www.w3.org/2000/01/rdf-schema#label> "hasConsequence"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasFunction
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasFunction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasFunction> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasFunction> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.obolibrary.org/obo/GO_0003674> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasFunction> <http://www.w3.org/2000/01/rdf-schema#comment> "molecular function of a protein" .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasFunction> <http://www.w3.org/2000/01/rdf-schema#label> "hasFunction"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole> <http://www.w3.org/2000/01/rdf-schema#range> <http://semanticscience.org/resource/SIO_000889> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasRole> <http://www.w3.org/2000/01/rdf-schema#label> "hasRole"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isChemicalTreatmeantFor> <http://www.w3.org/2000/01/rdf-schema#label> "isChemicalTreatmentFor"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#isConsequenceOf> <http://www.w3.org/2000/01/rdf-schema#label> "isConsequenceOf"@en .
 # 
 # 
 # 
@@ -167,43 +177,50 @@
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIM_trait> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIM_trait> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIM_trait> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIM_trait> <http://www.w3.org/2000/01/rdf-schema#label> "OMIM_trait"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIMnumber
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIMnumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIMnumber> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIMnumber> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIMnumber> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OMIMnumber> <http://www.w3.org/2000/01/rdf-schema#label> "OMIMnumber"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#PDB_ID
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#PDB_ID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#PDB_ID> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#PDB_ID> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#PDB_ID> <http://www.w3.org/2000/01/rdf-schema#label> "PDB_ID"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#diseaseName
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#diseaseName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#diseaseName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#diseaseName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#diseaseName> <http://www.w3.org/2000/01/rdf-schema#label> "diseaseName"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#drugName> <http://www.w3.org/2000/01/rdf-schema#label> "drugName"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneSymbol
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneSymbol> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneSymbol> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneSymbol> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#geneSymbol> <http://www.w3.org/2000/01/rdf-schema#label> "geneSymbol"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass> <http://www.w3.org/2000/01/rdf-schema#label> "hasMass"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#proteinName
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#proteinName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#proteinName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#proteinName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#proteinName> <http://www.w3.org/2000/01/rdf-schema#label> "Protein Name"@en .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#proteinName> <http://www.w3.org/2000/01/rdf-schema#label> "proteinName"@en .
 # 
 # 
 # 
@@ -1020,27 +1037,35 @@ _:genid63 <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:TermGeni
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#CardiovascularDisease> <http://www.w3.org/2002/07/owl#disjointWith> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#CardiovascularDisease> <http://www.w3.org/2002/07/owl#disjointWith> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#CardiovascularDisease> <http://www.w3.org/2002/07/owl#disjointWith> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#CardiovascularDisease> <http://www.w3.org/2000/01/rdf-schema#comment> "Group of disorders of heart and blood vessels"@en .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#CardiovascularDisease> <http://www.w3.org/2000/01/rdf-schema#label> "cardiovascular disease"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease> <http://www.w3.org/2000/01/rdf-schema#comment> "A disruption to regular bodily structure and function that produces\nspecific symptoms or that affects a specific location and is not simply a\ndirect result of physical injury."@en .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease> <http://www.w3.org/2000/01/rdf-schema#label> "disease"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene> <http://www.w3.org/2000/01/rdf-schema#comment> "A gene that is related with the appearence of one (or more) disease."@en .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene> <http://www.w3.org/2000/01/rdf-schema#label> "disease related gene"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug> <http://www.w3.org/2000/01/rdf-schema#comment> "Drug: chemical component with a physiological function" .
-<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug> <http://www.w3.org/2000/01/rdf-schema#label> "drug" .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug> <http://www.w3.org/2000/01/rdf-schema#comment> "Chemical component with a physiological function."@en .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug> <http://www.w3.org/2000/01/rdf-schema#label> "drug"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene> <http://www.w3.org/2000/01/rdf-schema#label> "gene" .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene> <http://www.w3.org/2000/01/rdf-schema#comment> "A linear sequence of nucleotides along a segment of DNA that is the basic physical and functional unit of heredity."@en .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene> <http://www.w3.org/2000/01/rdf-schema#label> "gene"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease> <http://www.w3.org/2000/01/rdf-schema#comment> "Disease that has been linked to some specific genes."@en .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease> <http://www.w3.org/2000/01/rdf-schema#label> "gene related disease"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#InbornMetabolicDisease
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#InbornMetabolicDisease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -1048,30 +1073,40 @@ _:genid63 <http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:TermGeni
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#InbornMetabolicDisease> <http://www.w3.org/2002/07/owl#disjointWith> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#InbornMetabolicDisease> <http://www.w3.org/2002/07/owl#disjointWith> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#InbornMetabolicDisease> <http://www.w3.org/2002/07/owl#disjointWith> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#InbornMetabolicDisease> <http://www.w3.org/2000/01/rdf-schema#comment> "Inherited metabolic disorders refer to different types of medical conditions caused by genetic defects — most commonly inherited from both parents — that interfere with the body's metabolism."@en .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#InbornMetabolicDisease> <http://www.w3.org/2000/01/rdf-schema#label> "inborn metabolic disease"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease> <http://www.w3.org/2002/07/owl#disjointWith> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease> <http://www.w3.org/2002/07/owl#disjointWith> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease> <http://www.w3.org/2000/01/rdf-schema#comment> "Disorders that affect the brain as well as the nerves found throughout the human body and the spinal cord."@en .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease> <http://www.w3.org/2000/01/rdf-schema#label> "neurological disease"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease> <http://www.w3.org/2002/07/owl#disjointWith> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease> <http://www.w3.org/2000/01/rdf-schema#comment> "Disease related to the formation of tumours (= masses of cells, as in cancer) in the body."@en .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease> <http://www.w3.org/2000/01/rdf-schema#label> "oncological disease"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein> <http://www.w3.org/2000/01/rdf-schema#label> "protein" .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein> <http://www.w3.org/2000/01/rdf-schema#comment> "Large molecules composed of one or more chains of amino acids in a \nspecific order determined by the base sequence of nucleotides in the \nDNA coding for the protein."@en .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein> <http://www.w3.org/2000/01/rdf-schema#label> "protein"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease> .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease> <http://www.w3.org/2000/01/rdf-schema#comment> "A type of disease that affects the lungs and other parts of the respiratory system."@en .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease> <http://www.w3.org/2000/01/rdf-schema#label> "respiratory disease"@en .
 # 
 # https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein> .
-<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein> <http://www.w3.org/2000/01/rdf-schema#label> "target protein" .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein> <http://www.w3.org/2000/01/rdf-schema#comment> "Protein targeted by some drug/s."@en .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein> <http://www.w3.org/2000/01/rdf-schema#label> "target protein"@en .
 # 
 # 
 # 
@@ -1254,4 +1289,19 @@ _:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2
 _:genid67 <http://www.w3.org/2002/07/owl#onProperty> <https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#hasMass> .
 _:genid67 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
 _:genid67 <http://www.w3.org/2002/07/owl#onDataRange> <http://www.w3.org/2001/XMLSchema#float> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist> <http://www.w3.org/2000/01/rdf-schema#comment> "A regulatory role of a drug that binds to a receptor, producing a similar response to the intended chemical and receptor."@en .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist> <http://www.w3.org/2000/01/rdf-schema#label> "agonist"@en .
+# 
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist> <http://www.w3.org/2000/01/rdf-schema#comment> "A regulatory role of a drug that binds to a receptor either on the primary site, or on another site, which all together stops the receptor from producing a response."@en .
+<https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist> <http://www.w3.org/2000/01/rdf-schema#label> "antagonist"@en .
+# 
 # Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
