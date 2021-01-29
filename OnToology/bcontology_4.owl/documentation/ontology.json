@@ -2249,6 +2249,14 @@
 }, {
   "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Agonist" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A regulatory role of a drug that binds to a receptor, producing a similar response to the intended chemical and receptor."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "agonist"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://semanticscience.org/resource/SIO_000880"
   } ],
@@ -2277,6 +2285,14 @@
 }, {
   "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual", "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Antagonist" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A regulatory role of a drug that binds to a receptor either on the primary site, or on another site, which all together stops the receptor from producing a response."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "antagonist"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://semanticscience.org/resource/SIO_000880"
   } ]
@@ -2349,6 +2365,14 @@
 }, {
   "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#CardiovascularDisease",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Group of disorders of heart and blood vessels"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "cardiovascular disease"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
   } ],
@@ -2436,6 +2460,10 @@
 }, {
   "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A disruption to regular bodily structure and function that produces\nspecific symptoms or that affects a specific location and is not simply a\ndirect result of physical injury."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "disease"
@@ -2443,6 +2471,14 @@
 }, {
   "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A gene that is related with the appearence of one (or more) disease."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "disease related gene"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"
   } ]
@@ -2450,9 +2486,11 @@
   "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Drug: chemical component with a physiological function"
+    "@language" : "en",
+    "@value" : "Chemical component with a physiological function."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
     "@value" : "drug"
   } ]
 }, {
@@ -2477,12 +2515,25 @@
 }, {
   "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A linear sequence of nucleotides along a segment of DNA that is the basic physical and functional unit of heredity."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
     "@value" : "gene"
   } ]
 }, {
   "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Disease that has been linked to some specific genes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "gene related disease"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"
   } ]
@@ -2499,6 +2550,14 @@
 }, {
   "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#InbornMetabolicDisease",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Inherited metabolic disorders refer to different types of medical conditions caused by genetic defects — most commonly inherited from both parents — that interfere with the body's metabolism."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "inborn metabolic disease"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
   } ],
@@ -2515,6 +2574,14 @@
 }, {
   "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#NeurologicalDisease",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Disorders that affect the brain as well as the nerves found throughout the human body and the spinal cord."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "neurological disease"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
   } ],
@@ -2529,6 +2596,10 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "OMIM_trait"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
@@ -2537,6 +2608,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "OMIMnumber"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
@@ -2566,6 +2641,14 @@
 }, {
   "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#OncologicalDisease",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Disease related to the formation of tumours (= masses of cells, as in cancer) in the body."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "oncological disease"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
   } ],
@@ -2578,18 +2661,35 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PDB_ID"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
 }, {
   "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Large molecules composed of one or more chains of amino acids in a \nspecific order determined by the base sequence of nucleotides in the \nDNA coding for the protein."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
     "@value" : "protein"
   } ]
 }, {
   "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#RespiratoryDisease",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A type of disease that affects the lungs and other parts of the respiratory system."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "respiratory disease"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
   } ]
@@ -2643,7 +2743,12 @@
 }, {
   "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Protein targeted by some drug/s."
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
     "@value" : "target protein"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
@@ -2655,6 +2760,10 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "diseaseName"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
@@ -2663,6 +2772,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "drugAffectsGeneProduct"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein"
@@ -2676,6 +2789,10 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "drugName"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
@@ -2684,6 +2801,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geneEncodesProduct"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"
@@ -2697,6 +2818,10 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geneProductEncodedByGene"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"
   } ]
@@ -2705,6 +2830,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#TargetProtein"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geneProductIsAffectedByDrug"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
@@ -2715,6 +2844,10 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Gene"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "geneSymbol"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#string"
   } ]
@@ -2723,6 +2856,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasChemicalTreatment"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
@@ -2735,6 +2872,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasConsequence"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
@@ -2751,6 +2892,10 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Protein"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasFunction"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://purl.obolibrary.org/obo/GO_0003674"
   } ]
@@ -2759,6 +2904,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasMass"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
@@ -2769,6 +2918,10 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasRole"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://semanticscience.org/resource/SIO_000889"
   } ]
@@ -2778,6 +2931,10 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Drug"
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isChemicalTreatmentFor"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#Disease"
   } ]
@@ -2786,6 +2943,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#GeneRelatedDisease"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isConsequenceOf"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "https://github.com/adrian-str/bcontology/blob/main/bcontology_4.owl#DiseaseRelatedGene"
@@ -2798,7 +2959,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "Protein Name"
+    "@value" : "proteinName"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
